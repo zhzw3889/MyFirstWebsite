@@ -1,0 +1,47 @@
+* {
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+.bottom {
+    width: 100%;
+    margin: 0;
+}
+.topbar {
+    width: 1260px;
+    height: 27px;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+    border-bottom: 0.07em solid lightgrey;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+/*收藏本站*/
+.left > span {
+    margin:0 0 2em 2.5em;
+    width: 72px;
+    line-height: 27px;
+    padding-left: 13px;
+    border-left: 0.2em solid lightgray;
+    border-right: 0.2em solid lightgray;
+    float: left;
+    font-size: 14px;
+}
+
+/*使垂直居中*/
+.left li, .right li {
+    line-height: 27px;
+    margin-left: 13px;
+}
+.left image {
+    vertical-align: middle;
+}
+.left ul,li {
+    float: left;
+}
+.right li {
+    float: right;
+}

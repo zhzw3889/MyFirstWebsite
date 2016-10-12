@@ -2,14 +2,14 @@
     font-family: 微软雅黑;
     font-size: 14px;
 }
-.bottom {
+.topbar {
     width: 100%;
     margin: 0;
+    background-color: #F7F7F7;
 }
-.topbar {
+.topbar_content {
     width: 90em;
     height: 2em;
-    background-color: #F7F7F7;
     margin: 0 auto;
     border-bottom: 0.07em solid lightgrey;
 }
@@ -18,28 +18,126 @@
 }
 .right {
     float: right;
-}
-/*收藏本站*/
-.left > span {
-    margin:0 0 2em 2.5em;
-    width: 5.14em;
-    line-height: 2em;
-    padding-left: 13px;
-    border-left: 0.2em solid lightgray;
-    border-right: 0.2em solid lightgray;
-    float: left;
+    margin-right: 1em;
 }
 /*使垂直居中*/
 .left li, .right li {
     line-height: 2em;
     margin-left: 1em;
 }
-.left ul li img {
+.left ul li img, .right ul li img {
     vertical-align: middle;/*小图像垂直居中*/
 }
-.left ul,li {
+ul,li {
     float: left;
 }
-.right li {
+/*收藏本站*/
+.left li:first-child {
+    margin-left: 0;
+    width: 5.14em;
+    line-height: 2em;
+    padding-left: 1.4em;
+    border-left: 0.2em solid lightgray;
+    border-right: 0.2em solid lightgray;
+}
+.topbar a:link, .topbar a:visited {
+    color: black;
+}
+.topbar a:hover, .topbar a:active {
+    color: red;
+}
+.blue_link a:link, .blue_link a:visited {
+    color: blue;
+}
+/*logo及搜索区*/
+.logoAndSearch {
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+.logoAndSearch_content {
+    width: 90em;
+    height: 6.64em;
+    margin: 0 auto;/*居中*/
+    /*background-color: yellow;*/
+}
+.logo {
+    float: left;
+    width: 11.7em;
+    height: 6.64em;
+    margin: 0 1.3em;
+    /*与下面的vertical-align: middle共同使logo垂直居中*/
+    line-height: 6.64em;
+    /*background-color: green;*/
+}
+.logo img {
+    vertical-align: middle;
+}
+/*搜索部分底盒*/
+.search {
+    float: left;
+    /*background: lightgrey;*/
+    height: 5.4em; /*注意不是6.64em?*/
+    width: 32.64em;
+    margin-top: 0;
+    margin-left: 15em;
+    padding-top: 1.2em;/*搜索框竖直居中的替代方案*/
+}
+/*搜索框，暂时选用背景图像的方案，以后改为css图*/
+.frame {
+    background: url("../images/search-box.png") no-repeat;
+    height: 2.6em;
+}
+/*调整搜索文字部分在搜索框的位置*/
+.search_text {
+    width: 24em;
+    height: 1.7em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    border: none;
+    float: left;
+}
+/*语音输入图标*/
+.frame img {
+    float: left;
+    margin-left: 0.6em;
+    margin-top: 0.5em;
+}
+/*"搜索"*/
+.frame span a {
+    width: 4.0em;
+    height: 1.8em;
+    margin-top: 0.1em;
+    margin-right: 0.3em;
+    line-height: 1.8em;
     float: right;
+    color: white;
+    font-family: 微软雅黑;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.list {
+    float: left;
+}
+.list a {
+    font-size: 0.9em;
+    color: black;
+    padding: 0 0.5em;
+}
+/*第三列-逛逛*/
+.stroll {
+    background: url("../images/stroll.png") no-repeat;
+    width: 10.5em;
+    height: 2.7em;
+    float: left;
+    margin-top: 1.2em;
+    margin-left: 15em;
+    /*background-color: aqua;*/
+}
+.stroll a {
+    padding-left: 5em;
+    font-size: 0.6em;
+    color: black;
+    line-height: 3.5em;/*文字行高大于块的高度可以实现文字靠底*/
 }

@@ -1,0 +1,14 @@
+/*导航左区*/
+.nav_left {
+    width: 25em;
+    float: left;
+    background-color: #720000;
+}
+.nav_middle {
+ /*   clear: both;*/
+    width: 25em;
+    height: 2em;
+    line-height: 3em;
+    float: left;
+    background-color: yellow;
+}

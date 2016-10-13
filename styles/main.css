@@ -130,9 +130,8 @@ ul,li {
     background: url("../images/stroll.png") no-repeat;
     width: 10.5em;
     height: 2.7em;
-    float: left;
+    float: right;
     margin-top: 1.2em;
-    margin-left: 15em;
     /*background-color: aqua;*/
 }
 .stroll a {
@@ -140,4 +139,66 @@ ul,li {
     font-size: 0.6em;
     color: black;
     line-height: 3.5em;/*文字行高大于块的高度可以实现文字靠底*/
+}
+/*导航区*/
+.nav {
+    width: 100%;
+    margin: 0;
+    background-color: #A40000;
+    height: 3em;
+}
+nav {
+    width: 90em;
+    height: inherit;
+    margin: 0 auto;
+}
+/*导航左区*/
+.nav_left {
+    width: 16.6em;
+    height: inherit;
+    line-height: 3em;
+    float: left;
+    background-color: #720000;
+}
+/*"全部分类"*/
+.nav_left span a {
+    color: white;
+    font-size: 1.2em;
+}
+.nav_left li:first-child {
+    padding: 0.2em 1.2em 0;/*调整图标与文字的相对位置*/
+}
+.nav_left li:last-child {
+    padding-left: 6em;
+}
+/*导航中区*/
+.nav_middle {
+    width: 56em;
+    height: inherit;
+    line-height: 3em;
+    float: left;
+}
+.nav_middle ul li {
+    padding-left: 2em;
+}
+.nav_middle a {
+    font-size: 1.2em;
+    color: white;
+}
+/*导航右区*/
+.nav_right {
+    float: left;
+    width: 17.4em;
+    height: inherit;
+    line-height: 3em;
+    background-color: #ff6775;
+}
+.nav_right a {
+    padding-left: 4em;
+    font-size: 1.2em;
+    color: white;
+}
+/*使购物车图标垂直居中*/
+.nav_right img {
+    vertical-align: middle;
 }

@@ -125,6 +125,9 @@ ul,li {
     color: black;
     padding: 0 0.5em;
 }
+.list a:hover, .list a:active {
+    color: red;
+}
 /*第三列-逛逛*/
 .stroll {
     background: url("../images/stroll.png") no-repeat;
@@ -178,12 +181,19 @@ nav {
     line-height: 3em;
     float: left;
 }
-.nav_middle ul li {
-    padding-left: 2em;
+.nav_middle ul li:last-child {
+
 }
 .nav_middle a {
+    display: block;
     font-size: 1.2em;
     color: white;
+    padding: 0 1.712em;
+}
+
+.nav_middle a:hover, .nav_middle a:active {
+    color: black;
+    background-color: #ff6775;
 }
 /*导航右区*/
 .nav_right {
@@ -194,11 +204,70 @@ nav {
     background-color: #ff6775;
 }
 .nav_right a {
-    padding-left: 4em;
+    display: block;
+    padding: 0 5.03em;
     font-size: 1.2em;
+    color: black;
+}
+.nav_right a:hover, .nav_right a:active {
     color: white;
+    background: #A40000;
 }
 /*使购物车图标垂直居中*/
 .nav_right img {
     vertical-align: middle;
+}
+/*main区*/
+main {
+    width: 100%;
+    height: 40em;
+    background-color: #E5E4E4;
+}
+.main_content {
+    width: 90em;
+    margin: 0 auto;
+    height: 40em;
+}
+/*左栏*/
+.main_left {
+    float: left;
+    width: 16.6em;
+    height: inherit;
+    background-color: white;
+}
+.main_left li {
+    height: 3.2em;
+    width: 16.6em;
+    /*padding-left: 1em;*/
+    border-bottom: 0.2em solid #E5E4E4;
+}
+.main_left li span {
+    color: grey;
+}
+.main_left li a {
+    display: block;
+    height: 3.2em;
+    padding: 0.2em 1em 0;
+}
+.main_left li a:hover, .main_left li a:active {
+    color: white;
+    background-color: #A40000;
+}
+/*">"*/
+.more {
+    float: right;
+}
+/*!*test*!
+.main_left li:first-child {
+    background-color: yellow;
+}*/
+/*焦点图*/
+.main_middle {
+    float: left;
+    width: 56em;
+    height: inherit;
+    background-color: khaki;
+}
+#picBox {
+    height: 16.68em;
 }

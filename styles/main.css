@@ -2,6 +2,10 @@
     font-family: 微软雅黑;
     font-size: 14px;
 }
+body {
+    margin: 0;
+    height: 100%;
+}
 .topbar {
     width: 100%;
     margin: 0;
@@ -138,10 +142,10 @@ ul,li {
     /*background-color: aqua;*/
 }
 .stroll a {
-    padding-left: 5em;
+    display: block;
     font-size: 0.6em;
+    padding: 1em 0em 0em 5em;
     color: black;
-    line-height: 3.5em;/*文字行高大于块的高度可以实现文字靠底*/
 }
 /*导航区*/
 .nav {
@@ -270,4 +274,133 @@ main {
 }
 #picBox {
     height: 16.68em;
+}
+/*积分区*/
+.tally {
+    width: 56em;
+    height: 15.2em;
+    background-color: white;
+}
+.tally_left {
+    width: 15.54em;
+    height: inherit;
+    float: left;
+}
+/*标题*/
+.tally_left div:first-child {
+    width: inherit;
+    height: 2em;
+    color: white;
+    font-size: 1.2em;
+    line-height: 2em;
+    text-indent: 1.5em;/*缩进*/
+    letter-spacing: 0.2em;/*字间距*/
+    background-color: #8B2B2B;
+}
+.tally_left div:last-child {
+    background-color: cyan;
+    position: relative;
+    height: 12.6em;
+}
+.tally_left div:last-child li:last-child {
+    position: absolute;
+    left: 1em;
+    top: 0.8em;
+    letter-spacing: 0.2em;
+}
+.tally_left div:last-child img {
+    width: 100%;
+    height: 12.6em;/*100%不起作用，why？*/
+}
+.tally_left div:last-child:hover, .tally_left div:last-child:active {
+    border: 0.1em solid red;
+}
+/*背景图像的方案，舍弃*/
+/*.tally_left div:last-child {
+    font-size: 1.1em;
+    letter-spacing: 0.2em;
+    text-indent: 1em;
+    line-height: 1.6em;
+    background: url("../images/vip.gif");
+    background-size: 100% 100%;!*调整图片大小适应块大小*!
+    !*background-color: lightcoral;*!
+    height: 11.6em;!*渐进调的大小，why?*!
+}*/
+.tally_left span {
+    color: red;
+}
+.tally_right {
+    width: 40.46em;
+    height: inherit;
+    float: left;
+}
+.tally_right div:first-child {
+    height: 2em;
+    color: white;
+    font-size: 1.2em;
+    line-height: 2em;
+    padding: 0 auto;
+    text-indent: 1.5em;/*缩进*/
+    letter-spacing: 0.2em;/*字间距*/
+    background-color: #9B4F25;
+}
+/*.tally_right div:first-child li {
+    height: inherit;
+}*/
+.tally_right div:first-child ul li:first-child {
+    font-size: 1.2em;
+}
+.tally_right div:first-child ul li:last-child {
+    float: right;
+    padding: 0 1em 0 12em;/*padding也能起到调节宽度的作用*/
+}
+.tally_right div:first-child ul li:last-child a {
+    color: white;
+}
+.tally_right div:first-child ul li:last-child img {
+    vertical-align: middle;
+}
+.tally_right div:last-child {
+    padding-left: 0.7em;
+}
+.tally_right div:last-child ul li {
+    position: relative;/*文字绝对定位的参照*/
+    width: 12em;
+    margin: 0.5em 0.4em;
+    height: 11.5em;
+    border: 0.2em solid lightgrey;
+}
+.tally_right div:last-child ul li span {
+    display: block;
+    font-size: 1em;
+    float: left;
+    position: absolute;/*利用绝对定位*/
+    left: 1em;
+    top: 0.5em;
+}
+.tally_right div:last-child ul li img {
+    width: 100%;
+    height: 100%;
+}
+/*山城啤酒等三个图片链接，此方案为背景图的方式，不考虑*/
+/*
+.tally_right div:last-child ul li:first-child {
+    background: url("../images/shancheng.jpg");
+    background-size: 100% 100%;
+}
+.tally_right div:last-child ul li:last-child {
+    background: url("../images/cup.jpg");
+    background-size: 100% 100%;
+}
+.soymilk {
+    background: url("../images/jiuyang.jpg") no-repeat;
+    background-position: 50% 80%;
+    background-size: 80% 80%;
+}*/
+.tally_right div:last-child li:hover, .tally_right div:last-child li:active {
+    border: 0.2em solid red;/*三个图像链接加上红色边框*/
+}
+/*不加力ul及li无效，why？*/
+.tally_right div:first-child ul li a:hover, .tally_right div:first-child ul li a:active {
+    color: red;/*逛逛*/
 }

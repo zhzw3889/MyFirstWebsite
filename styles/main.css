@@ -270,7 +270,6 @@ main {
     float: left;
     width: 56em;
     height: inherit;
-    background-color: khaki;
 }
 #picBox {
     height: 16.68em;
@@ -280,10 +279,11 @@ main {
     width: 56em;
     height: 15.2em;
     background-color: white;
+    border-bottom: 0.2em solid lightgrey;
 }
 .tally_left {
-    width: 15.54em;
-    height: inherit;
+    width: 15.1em;
+    height: 15em;
     float: left;
 }
 /*标题*/
@@ -298,9 +298,9 @@ main {
     background-color: #8B2B2B;
 }
 .tally_left div:last-child {
-    background-color: cyan;
     position: relative;
-    height: 12.6em;
+    height: 12.5em;
+    border: 0.1em solid lightgray;
 }
 .tally_left div:last-child li:last-child {
     position: absolute;
@@ -310,7 +310,7 @@ main {
 }
 .tally_left div:last-child img {
     width: 100%;
-    height: 12.6em;/*100%不起作用，why？*/
+    height: 12.5em;/*100%不起作用，why？*/
 }
 .tally_left div:last-child:hover, .tally_left div:last-child:active {
     border: 0.1em solid red;
@@ -330,7 +330,7 @@ main {
     color: red;
 }
 .tally_right {
-    width: 40.46em;
+    width: 40.9em;
     height: inherit;
     float: left;
 }
@@ -361,14 +361,14 @@ main {
     vertical-align: middle;
 }
 .tally_right div:last-child {
-    padding-left: 0.7em;
+    padding-left: 0.95em;
 }
 .tally_right div:last-child ul li {
     position: relative;/*文字绝对定位的参照*/
     width: 12em;
     margin: 0.5em 0.4em;
     height: 11.5em;
-    border: 0.2em solid lightgrey;
+    border: 0.1em solid lightgrey;
 }
 .tally_right div:last-child ul li span {
     display: block;
@@ -398,9 +398,30 @@ main {
     background-size: 80% 80%;
 }*/
 .tally_right div:last-child li:hover, .tally_right div:last-child li:active {
-    border: 0.2em solid red;/*三个图像链接加上红色边框*/
+    border: 0.1em solid red;/*三个图像链接加上红色边框*/
 }
 /*不加力ul及li无效，why？*/
 .tally_right div:first-child ul li a:hover, .tally_right div:first-child ul li a:active {
     color: red;/*逛逛*/
+}
+/*活动区*/
+.events {
+    width: 56em;
+    height: 7.15em;
+    background-color: white;
+    /*padding: 0.1em 0.1em;*//*会影响总的宽度，不加为好*/
+}
+.events ul li {
+    margin: 0.1em 0.1em;
+    width: 18.3em;
+    float:left;
+    height: 7.0em;
+    border: 0.1em solid lightgrey;
+}
+.events img {
+    width: 100%;
+    height: 100%;
+}
+.events ul li:hover, .events ul li:active {
+    border: 0.2px solid red;
 }

@@ -579,14 +579,15 @@ select {
     background-color: #FF7300;
     color: white;
 }
-.phone_bill {
-    display: none;
-}
 label {
     text-align: left;/*选项紧靠按钮*/
 }
+.phone_bill label {
+    text-align: right;
+    float: left;
+}
 /*游戏*/
-.game {
+.game, .travel {
     float: left;
     display: none;
 }
@@ -627,11 +628,10 @@ p.domestic {
 .travel a:hover, .travel a:active {
     color: red;
 }
-/*hover显示相应的区域*/
-/*
-li#phone_bill:hover .phone_bill {
-    display: block;
-}*/
+.choice a:hover, .choice a:active {
+    color: red;
+}
+/*旅行区提交按钮*/
 .btn1 {
     margin: 0.5em 0.2em 0.5em 1em;
     width: 5em;

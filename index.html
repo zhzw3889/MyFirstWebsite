@@ -54,7 +54,8 @@
         <div class="search">
             <div class="frame">
                 <form action="" method="post">
-                    <input type="text" class="search_text"/>
+                    <!--自动获取输入焦点-->
+                    <input type="text" class="search_text" autofocus placeholder="准备好棉被过冬"/>
                 </form>
                 <a href="#"><img src="images/MIC.png" alt=""></a>
                 <span><a href="#">搜 索</a></span>
@@ -168,7 +169,115 @@
                 </ul>
             </div><!--活动区结束-->
         </div>
-        <div class="main_right"></div>
+        <div class="main_right">
+            <div class="guarantees"><img src="images/banner.png" alt=""></div>
+            <div class="groupbuy">
+                <div><img src="images/groupbuy.png" alt="">&nbsp;快GO团</div>
+                <div class="shirts"><!--衬衫链接-->
+                    <ul>
+                        <li><a href="#"><img src="images/shirts.png" alt=""></a></li>
+                        <li class="brand"><a href="#">博特&nbsp;男女款格子衬衫</a></li>
+                        <li class="price"><a href="#">￥149&nbsp;<span><s>￥698</s></span><span>立即团</span></a></li>
+                        <li class="sales"><a href="#">已售:<span>1954</span>件&nbsp;&nbsp;剩余:<span>11小时05分48秒</span></a></li>
+                    </ul>
+                </div>
+            </div><!--团购区结束-->
+            <div class="pre_paid"><!--话费、彩票及点卡-->
+                <div class="choice">
+                    <ul>
+                        <li id="phone_bill">话费</li>
+                        <li>游戏</li>
+                        <li>旅行</li>
+                    </ul>
+                </div>
+                <div class="choice_content">
+                    <form action="" method="post" class="form phone_bill">
+                        <p>
+                            <label for="phone_number">手机号码:</label>
+                            <input type="text" id="phone_number" placeholder="请输入手机号码">
+                        </p>
+                        <p>
+                            <label for="value">面&nbsp;值:</label>
+                            <select id="value" name="value">
+                                <option value="30">30元</option>
+                                <option value="50">50元</option>
+                                <option value="100">100元</option>
+                                <option value="150">150元</option>
+                                <option value="200">200元</option>
+                                <option value="500">500元</option>
+                                <option value="1000">1000元</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="discount">折扣价:</label>
+                            <span id="discount">98.6-99.8</span>
+                        </p>
+                        <input type="submit"  class="btn submit" value="立即充值">
+                        <span><a href="#">话费充50奖5</a></span>
+                    </form>
+                    <form action="" method="post" class="form game">
+                        <p>
+                            <label for="game">游戏:</label>
+                            <select id="game" name="value">
+                                <option value="1">劲舞团</option>
+                                <option value="2">大话西游2</option>
+                                <option value="3">魔兽世界</option>
+                                <option value="4">街头篮球</option>
+                                <option value="5">守望先锋</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="value2">面值:</label>
+                            <select id="value2" name="value">
+                                <option value="5">5元</option>
+                                <option value="10">10元</option>
+                                <option value="30">30元</option>
+                                <option value="45">45元</option>
+                                <option value="100">100元</option>
+                                <option value="500">500元</option>
+                            </select>
+                        </p>
+                        <p class="radio">
+                            <input type="radio" id="auto" name="payway" checked>
+                            <label for="auto">自动充值</label>
+                            <input type="radio" id="card" name="payway">
+                            <label for="card">购买卡密</label>
+                        </p>
+                        <input type="submit"  class="btn submit" value="立即充值">
+                        <span><a href="#">超值游戏礼包</a></span>
+                    </form>
+                    <form action="" method="post" class="form travel">
+                        <ul>
+                            <li><a href="#">国内机票</a></li>
+                            <li><a href="#">国际机票</a></li>
+                            <li><a href="#">酒店客栈</a></li>
+                            <li><a href="#">度假门票</a></li>
+                            <li><a href="#">火车票</a></li>
+                        </ul>
+                        <p class="domestic ab">
+                            <input type="radio" id="oneway" name="way" checked>
+                            <label for="oneway" class="way">单程</label>
+                            <input type="radio" id="shuttle" name="way">
+                            <label for="shuttle" class="way">往返</label><br>
+                        </p>
+                        <p class="domestic bc">
+                            <label for="oneway">出发</label>
+                            <input type="text" class="choice1" placeholder="城市">
+                            <label for="oneway">到达</label>
+                            <input type="text" class="choice1" placeholder="城市">
+                        </p>
+                        <p class="domestic cd">
+                            <label for="oneway">出发</label>
+                            <input type="text" class="choice1" placeholder="日期">
+                            <label for="shuttle">返程</label>
+                            <input type="text" class="choice1" placeholder="日期">
+                        </p>
+                        <input type="submit"  class="btn1 submit" value="查找">
+                        <span><a href="#">国内机票满减30元!</a></span>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 </body>

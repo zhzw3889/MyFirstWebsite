@@ -425,3 +425,218 @@ main {
 .events ul li:hover, .events ul li:active {
     border: 0.2px solid red;
 }
+/*main右侧内容*/
+.main_right {
+    float: left;
+    width: 17.2em;
+    height: 40em;
+    background-color: darkgoldenrod;
+    border: 0.1em solid lightgrey;
+}
+/*三包内容*/
+.guarantees {
+    width: 17.2em;
+    height: 4em;
+    background-color: crimson;
+  }
+.guarantees img {
+    width: 100%;
+    height: 100%;
+}
+/*团购区*/
+.groupbuy {
+    height: 17em;
+    border: 0.1em solid lightgray;
+}
+.groupbuy div:first-child {
+    padding: 0 2.5em 0 0.6em;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    height: 2em;
+    line-height: 2em;
+    background-color: #E5E4E4;
+}
+.groupbuy img {
+    vertical-align: middle;
+}
+.shirts {
+    height: 14.5em;
+    background-color: white;
+}
+.shirts li:first-child {
+    height: 9em;
+    width: 17em;
+}
+.shirts li:first-child img{
+    width: 100%;
+    height: 100%;
+}
+.brand {
+    text-indent: 4em;
+    height: 1.5em;
+    line-height: 1.5em;
+}
+.price {
+    background: url("../images/price_bg.png") no-repeat;
+    /*background-color: lawngreen;*/
+    line-height: 2em;
+    width: 17.2em;
+    text-indent: 3em;
+    background-size: 99% 99%;
+    color: white;
+}
+/*使带删除线的数字变小*/
+.price span s {
+    font-size: 0.8em;
+}
+.price span:last-child {
+    display: block;
+    float: right;
+    padding-right: 1.5em;
+}
+.sales {
+    height: 2em;
+    line-height: 2em;
+    padding: 0 0.63em 0 0.63em;
+    /*background-color: ;*/
+}
+.sales span {
+    color: red;
+}
+.groupbuy:hover, .groupbuy:active {
+    border: 0.1em solid red;
+}
+/*彩票、话费充值及网游点卡*/
+.pre_paid {
+    height: 13.2em;
+    border: 0.1em solid lightgray;
+    background-color: white;
+}
+.choice {
+    height: 2.5em;
+    border-bottom: 0.1em solid lightgray;
+    /*background-color: coral;*/
+}
+.choice ul li {
+    padding: 0 1.768em;
+    height: 2.5em;
+    line-height: 2.5em;
+    border: 0.1em solid lightgray;
+    /*background-color: crimson;*/
+}
+/*表单内容区*/
+/*label {
+    width: 4em;
+}*/
+.choice_content {
+    width: 17em;
+    height: 10.5em;
+    border: 0.1em solid lightgray;
+    background-color: white;
+}
+/*form {
+    float: left;
+    overflow: hidden;
+    padding: 1em 0.5em;
+    background-color: darkcyan;
+}*/
+label {
+    display: inline-block;
+    text-align: right;
+    justify:inter-ideograph;
+    width: 5em;
+}
+#phone_number {
+    padding: 0 0.5em;
+    width: 10em;
+    border: 0.1em solid cornflowerblue;
+}
+select {
+    padding: 0 2em 0 0.2em;
+    border: 0.1em solid cornflowerblue;
+}
+.form {
+    padding: 0.5em 0 0 0;
+    float: left;
+}
+.form p {
+    height: 2.5em;
+    line-height: 2.5em;
+}
+.form span {
+    color: red;
+}
+.form span a {
+    padding: 0 1em;
+    font-size: 1em;
+    color: grey;
+}
+.btn {
+    margin-left: 1em;
+    width: 5.5em;
+    height: 2em;
+    border: none;
+    background-color: #FF7300;
+    color: white;
+}
+.phone_bill {
+    display: none;
+}
+label {
+    text-align: left;/*选项紧靠按钮*/
+}
+/*游戏*/
+.game {
+    float: left;
+    display: none;
+}
+.radio {
+    padding-left: 3em;
+}
+/*旅游*/
+.travel /*p:first-child */ul li a {
+    float: left;
+    font-size: 0.85em;
+    padding: 0 0.08em;
+}
+.travel label {
+    margin-left: 1em;
+    width: 2.5em;
+    height: 1.2em;
+    line-height: 1.2em;
+   /* background-color: cyan;*/
+}
+#oneway, shuttle {
+    margin-left: 1em;
+}
+label.way {
+    margin-left: 0;
+    text-align: left;
+}
+.choice1 {
+    width: 4em;
+    height: 1.2em;
+    line-height: 1.2em;
+}
+/*不加p的话height不起作用，why？*/
+p.domestic {
+    height: 1.5em;
+    display: inline-block;
+    margin-bottom: 0.2em;
+}
+.travel a:hover, .travel a:active {
+    color: red;
+}
+/*hover显示相应的区域*/
+/*
+li#phone_bill:hover .phone_bill {
+    display: block;
+}*/
+.btn1 {
+    margin: 0.5em 0.2em 0.5em 1em;
+    width: 5em;
+    height: 2em;
+    border: none;
+    background-color: #FF7300;
+    color: white;
+}

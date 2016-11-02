@@ -11,7 +11,6 @@ ul,li {
     float: left;
     text-align: center;
 }
-
 .top {
     width: 100%;
     margin: 0;
@@ -22,15 +21,14 @@ ul,li {
     height: 2em;
     margin: 0 auto;
     border-bottom: 0.07em solid lightgrey;
-    background-color: #0099ff;/*test*/
 }
 .top-left {
     float: left;
 }
-.top-right {
+/*.top-right {
     float: right;
     margin-right: 1em;
-}
+}*/
 /*使垂直居中*/
 .top-left li, .top-right li {
     line-height: 2em;
@@ -57,8 +55,42 @@ ul,li {
 .blue_link a:link, .blue_link a:visited {
     color: blue;
 }
-li.sub-list {
-    clear: right;
+.top-right {
+    float: right;
+    margin-right: 1em;
+}
+/*子菜单的隐藏及呈现*/
+.sub-list {
+    position: relative;
+    padding: 0 0.2em;
+}
+.sub-list ul {
+    width: 7em;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 2em;
+    /*background-color: #AEC1CC;*//*一加宽度就改了，why？*/
+}
+.sub-list ul li {
+    margin: 0;
+    background-color: #D3D3D3;
+}
+.sub-list ul li a {
+    display: block;
+    /*以下两行，width是为了使空间充足，padding是为了美观*/
+    padding: 0 0.2em;
+    width: 6em;
+}
+.sub-list:hover {
+    background-color: #D3D3D3;
+}
+.sub-list:hover ul {
+    display: block;
+}
+.sub-list ul li a:hover {
+    background-color: #720000;
+    color: #ffffff;
 }
 /*logo及搜索区*/
 .logoAndSearch {
@@ -192,14 +224,11 @@ nav {
     line-height: 3em;
     float: left;
 }
-.nav_middle ul li:last-child {
-
-}
 .nav_middle a {
     display: block;
     font-size: 1.2em;
     color: white;
-    padding: 0 1.712em;
+    padding: 0 1.717em;
 }
 
 .nav_middle a:hover, .nav_middle a:active {

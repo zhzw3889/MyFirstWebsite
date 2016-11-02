@@ -6,37 +6,41 @@ body {
     margin: 0;
     height: 100%;
 }
-.topbar {
+/*所有列表都初始为左浮动、水平居中*/
+ul,li {
+    float: left;
+    text-align: center;
+}
+
+.top {
     width: 100%;
     margin: 0;
     background-color: #F7F7F7;
 }
-.topbar_content {
+.top-content {
     width: 90em;
     height: 2em;
     margin: 0 auto;
     border-bottom: 0.07em solid lightgrey;
+    background-color: #0099ff;/*test*/
 }
-.left {
+.top-left {
     float: left;
 }
-.right {
+.top-right {
     float: right;
     margin-right: 1em;
 }
 /*使垂直居中*/
-.left li, .right li {
+.top-left li, .top-right li {
     line-height: 2em;
     margin-left: 1em;
 }
-.left ul li img, .right ul li img {
+.top-left ul li img, .top-right ul li img {
     vertical-align: middle;/*小图像垂直居中*/
 }
-ul,li {
-    float: left;
-}
 /*收藏本站*/
-.left li:first-child {
+.top-left li:first-child {
     margin-left: 0;
     width: 5.14em;
     line-height: 2em;
@@ -44,14 +48,17 @@ ul,li {
     border-left: 0.2em solid lightgray;
     border-right: 0.2em solid lightgray;
 }
-.topbar a:link, .topbar a:visited {
+.top a:link, .top a:visited {
     color: black;
 }
-.topbar a:hover, .topbar a:active {
+.top a:hover, .top a:active {
     color: red;
 }
 .blue_link a:link, .blue_link a:visited {
     color: blue;
+}
+li.sub-list {
+    clear: right;
 }
 /*logo及搜索区*/
 .logoAndSearch {

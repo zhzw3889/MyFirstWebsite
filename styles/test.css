@@ -1,14 +1,47 @@
-/*导航左区*/
-.nav_left {
-    width: 25em;
-    float: left;
-    background-color: #720000;
+* {
+    margin: 0;
+    padding: 0;
 }
-.nav_middle {
- /*   clear: both;*/
-    width: 25em;
-    height: 2em;
-    line-height: 3em;
+.list {
+    height: 40px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #D3D3D3;
+}
+ul {
+    list-style: none;
+}
+.sub-list  {
     float: left;
-    background-color: yellow;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+}
+.sub-list ul li {
+    background-color: #eeeeee;
+    margin-top: 2px;
+}
+/*初始状态设为隐藏，为后面设置动态效果*/
+.sub-list ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
+/*hover显示*/
+.sub-list:hover ul {
+    display: block;
+}
+a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    color: #ffffff;
+    background-color: #666666;
+}
+.sub-list ul li a:hover {
+    background-color: #0099ff;
 }

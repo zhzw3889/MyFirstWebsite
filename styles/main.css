@@ -33,9 +33,11 @@ ul,li {
 .top-left li, .top-right li {
     line-height: 2em;
     margin-left: 1em;
+/*    background-color: lightgrey;*/
 }
-.top-left ul li img, .top-right ul li img {
+.top-content ul li img {
     vertical-align: middle;/*小图像垂直居中*/
+    margin-bottom: 0.3em;/*微调是图像文字垂直对齐*/
 }
 /*收藏本站*/
 .top-left li:first-child {

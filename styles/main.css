@@ -64,7 +64,6 @@ ul,li {
 /*子菜单的隐藏及呈现*/
 .sub-list {
     position: relative;
-    padding: 0 0.2em;
 }
 .sub-list ul {
     width: 7em;
@@ -152,7 +151,7 @@ ul,li {
 .frame span a {
     width: 4.0em;
     height: 1.8em;
-    margin-top: 0.1em;
+    margin-top: 3px;
     margin-right: 0.3em;
     line-height: 1.8em;
     float: right;
@@ -176,17 +175,25 @@ ul,li {
 /*第三列-逛逛*/
 .stroll {
     background: url("../images/stroll.png") no-repeat;
-    width: 10.5em;
-    height: 2.7em;
+    width: 146px;
+    height: 36px;
     float: right;
     margin-top: 1.2em;
     /*background-color: aqua;*/
 }
 .stroll a {
     display: block;
-    font-size: 0.6em;
-    padding: 1em 0em 0em 5em;
+    float: left;
+    width: 86px;/*146px减去padding-left*/
+    height: 36px;
+    line-height: 36px;
+    padding-left: 60px;
+    font-size: 12px;/*用em的表示法貌似chrome和firefox标准不同*/
     color: black;
+    /*background-color: yellowgreen;*/
+}
+.stroll img {
+    margin-bottom: 2px;/*微调箭头使之与文字对齐*/
 }
 /*导航区*/
 .nav {
@@ -230,7 +237,7 @@ nav {
     display: block;
     font-size: 1.2em;
     color: white;
-    padding: 0 1.717em;
+    padding: 0 1em;
 }
 
 .nav_middle a:hover, .nav_middle a:active {
@@ -677,4 +684,75 @@ p.domestic {
     border: none;
     background-color: #FF7300;
     color: white;
+}
+footer {
+    /*background-color: #0099ff;*/
+    width: 100%;
+}
+.footer-content {
+    margin: 0 auto;/*水平居中布局固定宽度加上margin: 0 auto;才行*/
+    height: 161px;/*41+45+75*/
+    width: 1260px;/*90em*/
+    background-color: #ffffff;
+}
+.three-guarantees {
+    height: 41px;/*图像高度为39px，不靠底*/
+    /*以下两行实现块居中，但是必须去掉左浮动*/
+    width: 760px;
+    margin: 0 auto;
+    margin-top: 12px;
+    border: 1px solid #E5E4E4;
+}
+/*760 = 6*70 + 3*112 + 2*2，注意计算的公式为
+  width(上一级宽度)=6*padding+3*width+6*border
+  */
+.three-guarantees li {
+    height: 41px;
+    width: 111px;/*8em*/
+    padding: 0 70px;
+    border-right: 2px solid lightgrey;
+    /*background-color: #D86C01;*/
+}
+.three-guarantees li:last-child {
+    border-right: none;
+}
+.three-guarantees img {
+    float: left;/*必须加,否则会被挤到文字的后面*/
+}
+.three-guarantees span {
+    display: inline-block;
+    float: left;/*必须加，否则产生错位*/
+    height: 41px;
+    line-height: 41px;
+    font-size: 16px;
+    margin-left: 10px;
+    /*background-color: #0099ff;*/
+}
+.other {
+    width: 430px;
+    height: 75px;
+    margin: 0 auto;
+    margin-top: 45px;
+    font-size: 10px;
+    color: #808080;
+    border-right: 1px solid #E5E4E4;
+}
+.other ul li a {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 8px;
+    color: #808080;/*链接字体好像不能继承上一层的字体颜色*/
+    font-size: 10px;
+    /*background-color: #9B4F25;*/
+}
+.other p {
+    clear: both;
+    height: 25px;
+    font-size: 10px;
+    text-align: center;
+    /*background-color: darkgreen;*/
+}
+.other a:hover, .other a:active {
+    color: red;
 }

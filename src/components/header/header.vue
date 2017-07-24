@@ -1,24 +1,23 @@
 <template>
-  <div header="header" class="header">
+  <div class="header">
     <div class="wrapper">
       <div class="left">
-        <a href="">收藏本站</a>
-        <span class="line-left">广东v&nbsp;&nbsp;<span>[切换省份]</span></span>
-        <span class="line-left"><img src="./device_09-16.png" alt="" />手机版</span>
-        <img alt="" src="./qrcode-16.png"/>
-        <img alt="" class="line-left" src="./weibo-sina-16.png"/>
+        <span><a href="">收藏本站</a></span>
+        <span class="line-left">广东&nbsp;&nbsp;<span>[<a href="">切换省份</a>]</span></span>
+        <a href=""><span class="line-left"><img src="./device_09-16.png" alt="" />手机版</span></a>
+        <a href=""><img alt="" src="./qrcode-16.png"/></a>
+        <a href=""><img alt="" class="line-left" src="./weibo-sina-16.png"/></a>
       </div>
       <div class="right">
         <span>您好！</span>
-        <span>请<a href="">登录注册</a> </span>
-        <span class="line-left">我的1号商城</span>
-        <span class="line-left">收藏夹</span>
-        <span class="line-left">帮助中心</span>
-        <span class="line-left">商家入住通道</span>
+        <span>请<a class="blue" href="">登录注册</a> </span>
+        <span class="line-left"><a href="">我的1号商城</a></span>
+        <span class="line-left"><a href="">收藏夹</a></span>
+        <span class="line-left"><a href="">帮助中心</a></span>
+        <span class="line-left"><a href="">商家入住通道</a></span>
       </div>
     </div>
   </div>
-
 </template>
 
 <script type="text/ecmascript-6">
@@ -35,6 +34,9 @@
    padding: 0 20px;
    border-bottom: solid 1px $borderColor;
    background-color: #f6f6eb;
+   & a:hover {
+     color: red;
+   }
    .wrapper {
      padding-left: 5px;
      font-size: $fontSize;
@@ -58,7 +60,7 @@
        padding:0 5px;
        border-left: solid 1px $borderColor;
      }
-     & a {
+     .blue {
        color: $anchorColor;
      }
    }

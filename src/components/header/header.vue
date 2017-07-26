@@ -12,9 +12,9 @@
         <span>您好！</span>
         <span>请<a class="blue" href="">登录注册</a> </span>
         <span class="line-left"><a href="">我的1号商城</a></span>
-        <span class="line-left"><a href="">收藏夹</a></span>
-        <span class="line-left"><a href="">帮助中心</a></span>
-        <span class="line-left"><a href="">商家入住通道</a></span>
+        <span class="line-left"><a href="">收藏夹  <img alt="" src="./arrow-down-8.png"/></a></span>
+        <span class="line-left"><a href="">帮助中心  <img alt="" src="./arrow-down-8.png"/></a></span>
+        <span class="line-left"><a href="">商家入住通道</a>  <img alt="" src="./arrow-right-8.png"/></span>
       </div>
     </div>
   </div>

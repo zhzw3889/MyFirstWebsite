@@ -19,12 +19,12 @@
           <li class="item"><a href="#">御泥坊新品首发</a></li>
         </div>
       </div>
-      <div class="right">
-        <img class="pic2" alt="" src="./logo-36-3.png"/>
-        <div class="stroll">
-          <a href="">去快GO店逛逛</a>
-        </div>
-      </div>
+      <!-- <div class="right">
+           <img class="pic2" alt="" src="./logo-36-3.png"/>
+           <div class="stroll">
+           <a href="">去快GO店逛逛</a>
+           </div>
+           </div> -->
     </div>
   </div>
   </div>
@@ -35,12 +35,15 @@
 </script>
 
 <style lang="scss" rel="stylesheet/scss">
- $fontSize: 10px;
+ $fontSize: 13px;
  $height: 66px;
  $width: 600px;/* 设备检查时变动 */
+ $padding: 5px 10px;
 
+ /* flex居中 */
  .searcher {
    padding: 0 20px;
+   margin: 10px 0;
    height: $height;
    & a:hover {
      color: red;
@@ -60,17 +63,20 @@
      font-size: $fontSize;
      .searcherBar {
        margin-top: 12px;
-       margin-left: $width / 4;
+       margin-left: $width / 5;
        padding: 2px;
+       font-size: $fontSize;
        background-color: #b8052e;
        .blank {
-         width: 300px;
+         width: $fontSize * 30;
          height: 20px;
-         padding: 2px 5px;
+         padding: $padding;
        }
        .search {
-         padding: 2px 15px;
+         padding: 5px 15px;
          a {
+           font-weight: bold;
+           font-size: $fontSize + 3px;
            color: #fff;
          }
        }
@@ -78,35 +84,38 @@
      }
      .recommendation {
        margin-top: 5px;
-       margin-left: $width / 4;
+       margin-left: $width / 5;
        .item {
          float: left;
          padding: 0 2px;
+         a {
+           font-size: $fontSize;
+         }
        }
      }
    }
-   .right {
-     $height: 26px;
+   /* .right {
+      $height: 34px;
 
-     margin-top: 12px;
-     float: right;
-     height: $height;
-     background-color: #b8052e;
-     .pic2 {
-       display: inline-block;
-       float: left;
-       margin: 3px;
-     }
-     .stroll {
-       display: inline-block;
-       margin: 1px;
-       float: left;
-       line-height: $height - 2px;
-       padding: 0 5px;
-       font-size: $fontSize;
-       background-color: #FFF;
-       vertical-align: center;
-     }
-   }
+      margin-top: 12px;
+      float: right;
+      height: $height;
+      background-color: #b8052e;
+      .pic2 {
+      display: inline-block;
+      float: left;
+      margin: 5px;
+      }
+      .stroll {
+      display: inline-block;
+      margin: 1px;
+      float: left;
+      line-height: $height - 2px;
+      padding: 0 5px;
+      font-size: $fontSize;
+      background-color: #FFF;
+      vertical-align: center;
+      }
+      } */
  }
 </style>

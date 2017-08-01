@@ -73,32 +73,29 @@
            top: 0;
          }
        }
-       .sidebar-icon {
+       .sidebar-icon, .sidebar-text {
          position: absolute;
          left: 0;
-         top: 0;
          width: $sidebar-size;
          height: $sidebar-size;
+         text-align: center;
+         @include transition(top 0.5s);
+       }
+       .sidebar-icon {
+         top: 0;
          font-size: 20px;
          color: $icon-color;
          background-color: $icon-bgcolor;
-         text-align: center;
          line-height: $sidebar-size;
-         @include transition(top 0.5s);
+
        }
        .sidebar-text {
-         position: absolute;
-         left: 0;
          top: $sidebar-size;
-         width: $sidebar-size;
-         height: $sidebar-size;
          padding-top: ($sidebar-size - $fontSize * 2) / 2;
          color: $icon-bgcolor;
          background-color: $icon-color;
          font-size: $fontSize;
-         text-align: center;
          line-height: 1.3;
-         @include transition(top 0.5s);
        }
      }
      .sidebar-layer {

@@ -42,7 +42,7 @@
 
  /* flex居中 */
  .searcher {
-   padding: 0 20px;
+   padding: 0 40px;
    margin: 10px 0;
    height: $height;
    & a:hover {

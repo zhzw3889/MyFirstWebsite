@@ -20,7 +20,7 @@
       </span>
       <span class="sidebar-layer sidebar-layer-app" ></span>
     </a>
-    <a class="sidebar-item" href="">
+    <a class="sidebar-item" @click="toTop" href="">
       <span class="sidebar-button">
         <i class="sidebar-icon icon-arrow-up"></i>
         <span class="sidebar-text">回到<br />顶部</span>
@@ -30,7 +30,42 @@
 </template>
 
 <script type="text/ecmascript-6">
+ export default {
+   methods: {
+     toTop (e) {
+       var timer = null;
+       /* isTop = true; */
 
+       e.preventDefault();
+
+       timer = setInterval(() => {
+         let osTop = document.documentElement.scrollTop || document.body.scrollTop;
+         let ispeed = Math.ceil(osTop / 5); /* 以每次80%的速度递减，直至为零 */
+
+         document.documentElement.scrollTop = document.body.scrollTop = osTop - ispeed;
+         /* console.log('osTop=%d, ispeed=%d', osTop, ispeed); */
+
+         if (osTop === 0) {
+           clearInterval(timer);
+         }
+       }, 20);
+     }
+   },
+   created () {
+     /* scroll事件是加于window上的，暂时用setTnterval解决 */
+     setInterval(() => {
+       let osTop = document.documentElement.scrollTop || document.body.scrollTop;
+       let btn = document.getElementsByClassName('sidebar-item')[3];
+       let clientHeight = document.documentElement.clientHeight;
+
+       if (osTop >= clientHeight) {
+         btn.style.display = 'block';
+       } else {
+         btn.style.display = 'none';
+       }
+     }, 20);
+   }
+ };
 </script>
 
 <style lang="scss" rel="stylesheet/scss">

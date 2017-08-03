@@ -40,7 +40,7 @@
 
        timer = setInterval(() => {
          let osTop = document.documentElement.scrollTop || document.body.scrollTop;
-         let ispeed = Math.ceil(osTop / 5); /* 以每次80%的速度递减，直至为零 */
+         let ispeed = Math.ceil(osTop / 4); /* 以每次80%的速度递减，直至为零 */
 
          document.documentElement.scrollTop = document.body.scrollTop = osTop - ispeed;
          /* console.log('osTop=%d, ispeed=%d', osTop, ispeed); */

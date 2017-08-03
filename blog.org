@@ -1,0 +1,6 @@
+* 关于图像的显示尺寸
+** 在标签中直接用width与height设置
+** 在css中设置，只要设置width，height的值不手动设置的话会自动根据图像本身的比例显示
+** 在a标签中img标签，可以将img的尺寸设置成a的尺寸相同
+* 关于盒子
+** 只要将box-sizing设置成border-box，除了margin外，padding、border都包含在width中

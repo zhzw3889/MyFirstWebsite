@@ -20,121 +20,174 @@
             <div class="submenu">
               <div class="classify">
                 <dl>
-                  <!-- 数据应该来源于json -->
-                  <dt>当季流行<span class="icon-more-right"></span></dt>
-                  <dd>
-                    <a href="">夏季新品</a>
-                    <a href="">商场同款</a>
-                    <a href="">气质连衣裙</a>
-                    <a href="">印花衬衫</a>
-                    <a href="">牛仔单品</a>
-                    <a href="">百搭休闲裤</a>
-                    <a href="">无痕文胸</a>
-                    <a href="">运动文胸</a>
-                    <a href="">超柔内裤</a>
-                    <a href="">潮流家居服</a>
-                    <a href="">百搭船</a>
+                <!-- 数据应该来源于json -->
+                <dt>当季流行<span class="icon-more-right"></span></dt>
+                <dd>
+                <a href="">夏季新品</a>
+                <a href="">商场同款</a>
+                <a href="">气质连衣裙</a>
+                <a href="">印花衬衫</a>
+                <a href="">牛仔单品</a>
+                <a href="">百搭休闲裤</a>
+                <a href="">无痕文胸</a>
+                <a href="">运动文胸</a>
+                <a href="">超柔内裤</a>
+                <a href="">潮流家居服</a>
+                <a href="">百搭船</a>
                   </dd>
                 </dl>
                 <dl>
-                  <dt>精选上装<span class="icon-more-right"></span></dt>
-                  <dd>
-                    <a href="">T恤</a>
-                    <a href="">衬衫</a>
-                    <a href=""></a>
-                    <a href="">针织衫</a>
-                    <a href="">短外套</a>
-                    <a href="">小西装</a>
-                    <a href="">风衣</a>
-                    <a href="">卫衣</a>
-                    <a href="">毛衣</a>
+                <dt>精选上装<span class="icon-more-right"></span></dt>
+                <dd>
+                <a href="">T恤</a>
+                <a href="">衬衫</a>
+                <a href="">针织衫</a>
+                <a href="">短外套</a>
+                <a href="">小西装</a>
+                <a href="">风衣</a>
+                <a href="">卫衣</a>
+                <a href="">毛衣</a>
                   </dd>
                 </dl>
                 <dl>
-                  <dt>浪漫裙装<span class="icon-more-right"></span></dt>
-                  <dd>
-                    <a href="">连衣裙</a>
-                    <a href="">蕾丝连衣裙</a>
-                    <a href="">真丝连衣裙</a>
-                    <a href="">印花连衣裙</a>
-                    <a href="">半身裙</a>
-                    <a href="">蕾丝半身裙</a>
-                    <a href="">百褶裙</a>
-                    <a href="">牛仔裙</a>
-                    <a href="">背心裙</a>
-                    <a href="">a字裙</a>
-                    <a href="">棉麻连衣裙</a>
-                    <a href="">包臀裙</a>
-                    <a href="">长袖连衣裙</a>
+                <dt>浪漫裙装<span class="icon-more-right"></span></dt>
+                <dd>
+                <a href="">连衣裙</a>
+                <a href="">蕾丝连衣裙</a>
+                <a href="">真丝连衣裙</a>
+                <a href="">印花连衣裙</a>
+                <a href="">半身裙</a>
+                <a href="">蕾丝半身裙</a>
+                <a href="">百褶裙</a>
+                <a href="">牛仔裙</a>
+                <a href="">背心裙</a>
+                <a href="">a字裙</a>
+                <a href="">棉麻连衣裙</a>
+                <a href="">包臀裙</a>
+                <a href="">长袖连衣裙</a>
                   </dd>
                 </dl>
                 <dl>
-                  <dt>女士下装<span class="icon-more-right"></span></dt>
-                  <dd>
-                    <a href="">短裤</a>
-                    <a href="">牛仔裤</a>
-                    <a href="">休闲裤</a>
-                    <a href="">小脚裤</a>
-                    <a href="">哈伦裤</a>
-                    <a href="">背带裤</a>
-                    <a href="">西装裤</a>
-                    <a href="">阔腿裤</a>
-                    <a href="">打底裤</a>
+                <dt>女士下装<span class="icon-more-right"></span></dt>
+                <dd>
+                <a href="">短裤</a>
+                <a href="">牛仔裤</a>
+                <a href="">休闲裤</a>
+                <a href="">小脚裤</a>
+                <a href="">哈伦裤</a>
+                <a href="">背带裤</a>
+                <a href="">西装裤</a>
+                <a href="">阔腿裤</a>
+                <a href="">打底裤</a>
                   </dd>
                 </dl>
                 <dl>
-                  <dt>特色女装<span class="icon-more-right"></span></dt>
-                  <dd>
-                    <a href="">时尚套装</a>
-                    <a href="">休闲套装</a>
-                    <a href="">精选妈妈装</a>
-                    <a href="">大码女装</a>
-                    <a href="">职业套装</a>
-                    <a href="">优雅旗袍</a>
-                    <a href="">精致礼服</a>
-                    <a href="">婚纱</a>
-                    <a href="">唐装</a>
-                    <a href="">小码女装</a>
+                <dt>特色女装<span class="icon-more-right"></span></dt>
+                <dd>
+                <a href="">时尚套装</a>
+                <a href="">休闲套装</a>
+                <a href="">精选妈妈装</a>
+                <a href="">大码女装</a>
+                <a href="">职业套装</a>
+                <a href="">优雅旗袍</a>
+                <a href="">精致礼服</a>
+                <a href="">婚纱</a>
+                <a href="">唐装</a>
+                <a href="">小码女装</a>
                   </dd>
                 </dl>
                 <dl>
-                  <dt>文胸塑身<span class="icon-more-right"></span></dt>
-                  <dd>
-                    <a href="">光面文胸</a>
-                    <a href="">运动文胸</a>
-                    <a href="">美背文胸</a>
-                    <a href="">聚拢文胸</a>
-                    <a href="">大杯文胸</a>
-                    <a href="">轻薄塑身</a>
+                <dt>文胸塑身<span class="icon-more-right"></span></dt>
+                <dd>
+                <a href="">光面文胸</a>
+                <a href="">运动文胸</a>
+                <a href="">美背文胸</a>
+                <a href="">聚拢文胸</a>
+                <a href="">大杯文胸</a>
+                <a href="">轻薄塑身</a>
                   </dd>
                 </dl>
                 <dl>
-                  <dt>家居服<span class="icon-more-right"></span></dt>
-                  <dd>
-                    <a href="">春夏家居</a>
-                    <a href="">服纯棉家居</a>
-                    <a href="">服莫代尔家居服</a>
-                    <a href="">真丝家居服</a>
-                    <a href="">春夏睡裙</a>
-                    <a href="">男士家居服</a>
-                    <a href="">情侣家居服</a>
-                    <a href="">性感睡裙</a>
+                <dt>家居服<span class="icon-more-right"></span></dt>
+                <dd>
+                <a href="">春夏家居</a>
+                <a href="">服纯棉家居</a>
+                <a href="">服莫代尔家居服</a>
+                <a href="">真丝家居服</a>
+                <a href="">春夏睡裙</a>
+                <a href="">男士家居服</a>
+                <a href="">情侣家居服</a>
+                <a href="">性感睡裙</a>
                   </dd>
                 </dl>
                 <dl>
-                  <dt>内裤背心<span class="icon-more-right"></span></dt>
-                  <dd>
-                    <a href="">男士内裤</a>
-                    <a href="">女式内裤</a>
-                    <a href="">男士内裤多条装</a>
-                    <a href="">女士内裤多条装</a>
-                    <a href="">莫代尔内裤</a>
-                    <a href="">吊带背心</a>
+                <dt>内裤背心<span class="icon-more-right"></span></dt>
+                <dd>
+                <a href="">男士内裤</a>
+                <a href="">女式内裤</a>
+                <a href="">男士内裤多条装</a>
+                <a href="">女士内裤多条装</a>
+                <a href="">莫代尔内裤</a>
+                <a href="">吊带背心</a>
                   </dd>
                 </dl>
               </div>
               <div class="brands">
-                右侧推荐品牌
+                <div class="sub-logo">
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_1.jpg"/>
+                  </a>
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_2.jpg"/>
+                  </a>
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_3.jpg"/>
+                  </a>
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_4.jpg"/>
+                  </a>
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_5.jpg"/>
+                  </a>
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_6.jpg"/>
+                  </a>
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_7.jpg"/>
+                  </a>
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_8.jpg"/>
+                  </a>
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_9.jpg"/>
+                  </a>
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_10.jpg"/>
+                  </a>
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_11.jpg"/>
+                  </a>
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_12.jpg"/>
+                  </a>
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_13.jpg"/>
+                  </a>
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_14.jpg"/>
+                  </a>
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_15.jpg"/>
+                  </a>
+                  <a class="logo" href="">
+                  <img alt="" src="./brands/brand_16.jpg"/>
+                  </a>
+                </div>
+                <div class="sub-title clearfix">
+                  <a class="title" href="">
+                    <img alt="" src="./brands/brand_17.jpg"/>
+                  </a>
+                </div>
               </div>
             </div>
           </li>
@@ -2170,10 +2223,23 @@
 </template>
 
 <script type="text/ecmascript-6">
- export default {};
+ export default {
+   /* created () {
+    *   var changeImgSize = function () {
+    *     var imgs = document.querySelectorAll('a.logo img');
+    *     for (let i = 0; i < imgs.length; i++) {
+    *       console.log(imgs);
+    *       imgs[i].setAttribute('width', '75');
+    *       imgs[i].setAttribute('height', '35');
+    *     }
+    *   };
+    *   changeImgSize();
+    * } */
+ };
 </script>
 
 <style lang="scss" rel="stylesheet/scss">
+ @import '../../common/sass/mixin.scss';
  $menuWidth: 200px;
  $height: 36px;
  $fontSize: 16px;
@@ -2241,8 +2307,8 @@
            background: #fff;
          }
          .submenu {
-           $width: 750px;
-           $height: 546px;
+           $width: 800px;
+           $height: 550px;
 
            display: none;
            background-color: #fff;
@@ -2256,12 +2322,11 @@
              color: #5b5959;
            }
            .classify {
-             margin: 5px;
+             box-sizing: border-box;
              display: inline-block;
              float: left;
-             width: $width * 3 / 4 ;
+             width: $width * 3 / 4;
              height: $height - 10px;
-
              /* 京东的方案，将dt相对dl定位，处于dl的空白padding-left中 */
              /*  */
              dl {
@@ -2310,12 +2375,41 @@
                 } */
            }
            .brands {
-             margin: 5px;
+             box-sizing: border-box;
              display: inline-block;
-             width: $width / 5;
-             height: $height - 10px;
+             margin: auto;
+             /* 200=92*2+4*2+6+2 */
+             /* .logo的margin-left有4px，加上此padding-left的2px正好两边都是6px */
+             padding: 6px 6px 6px 2px;
+             width: $width / 4;
+             height: $height;
              float: left;
-             background-color: green;
+             /* background-color: #FAFAFA; */
+             background-color: #c0f5b7;
+             .logo {
+               float: left;
+               margin: 0 0 4px 4px;
+               width: 92px;
+               height: 46px;
+               &:hover {
+                 opacity: 0;
+               }
+               img {
+                 width: 92px;
+                 height: 46px;
+               }
+             }
+             .title {
+               display: inline-block;
+               margin-left: 4px;
+               width: 188px;
+               height: 86px;
+               @include clearfix();
+               img {
+                 width: 188px;
+                 height: 86px;
+               }
+             }
            }
          }
        }

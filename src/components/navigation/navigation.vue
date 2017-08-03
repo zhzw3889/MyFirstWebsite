@@ -2240,6 +2240,7 @@
 
 <style lang="scss" rel="stylesheet/scss">
  @import '../../common/sass/mixin.scss';
+ 
  $menuWidth: 200px;
  $height: 36px;
  $fontSize: 16px;
@@ -2308,12 +2309,11 @@
          }
          .submenu {
            $width: 800px;
-           $height: 550px;
 
            display: none;
            background-color: #fff;
            width: $width;
-           height: $height;
+           height: ($height - 2px) * 16;
            position: absolute; /* 相对li定位 */
            left: 200px;
            top: 0;
@@ -2326,7 +2326,6 @@
              display: inline-block;
              float: left;
              width: $width * 3 / 4;
-             height: $height - 10px;
              /* 京东的方案，将dt相对dl定位，处于dl的空白padding-left中 */
              /*  */
              dl {
@@ -2382,7 +2381,7 @@
              /* .logo的margin-left有4px，加上此padding-left的2px正好两边都是6px */
              padding: 6px 6px 6px 2px;
              width: $width / 4;
-             height: $height;
+             height: ($height - 2px) * 16;
              float: left;
              /* background-color: #FAFAFA; */
              background-color: #c0f5b7;

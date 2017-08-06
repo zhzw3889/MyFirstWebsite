@@ -4,3 +4,13 @@
 ** 在a标签中img标签，可以将img的尺寸设置成a的尺寸相同
 * 关于盒子
 ** 只要将box-sizing设置成border-box，除了margin外，padding、border都包含在width中
+* 关于动画 [1/2]
+** DONE CSS3之transition
+   CLOSED: [2017-08-06 日 10:41]
+   - CLOSING NOTE [2017-08-06 日 10:41]
+   1. 语法: transition: property duration timing-function delay;
+   2. 默认: all 0 ease 0
+   3. 继承性: no
+   4. 版本: CSS3
+   5. JavaScript 语法： object.style.transition="width 2s"
+** TODO Vue之transition

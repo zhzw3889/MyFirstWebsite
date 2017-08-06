@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="clearfix">
     <ul>
       <li>test lines</li>
       <li>test lines</li>
@@ -110,5 +110,9 @@
 </script>
 
 <style lang="scss" rel="stylesheet/scss">
+ @import '../../common/sass/mixin.scss';
 
+ div {
+   @include clearfix();
+ }
 </style>

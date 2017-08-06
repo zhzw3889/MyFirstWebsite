@@ -2,6 +2,7 @@
   <div id="app">
     <v-header></v-header>
     <v-searcher></v-searcher>
+    <v-mainNav></v-mainNav>
     <v-navigation></v-navigation>
     <v-sidebar></v-sidebar>
     <v-test></v-test>
@@ -14,6 +15,7 @@
  import navigation from './components/navigation/navigation.vue';
  import sidebar from './components/sidebar/sidebar.vue';
  import test from './components/test/test.vue';
+ import mainNav from './components/main_nav/main_nav.vue';
 
  export default {
    components: {
@@ -21,7 +23,8 @@
      'v-searcher': searcher,
      'v-navigation': navigation,
      'v-sidebar': sidebar,
-     'v-test': test
+     'v-test': test,
+     'v-mainNav': mainNav
    }
  };
 </script>

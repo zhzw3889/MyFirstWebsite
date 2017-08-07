@@ -26,6 +26,7 @@
 
 <style lang="scss" rel="stylesheet/scss">
  /* 在main.js中已经引入index.scss, 故不需要再每次都引入 */
+ @import '../../common/sass/mixin.scss';
 
  $fontSize: 14px;
  $height: 28px;
@@ -36,9 +37,7 @@
    padding: 0 40px;
    border-bottom: solid 1px $borderColor;
    background-color: #f6f6eb;
-   a:hover {
-     color: red;
-   }
+   transition: all 5s;
    .wrapper {
      padding-left: 5px;
      font-size: $fontSize;
@@ -65,12 +64,24 @@
            margin-left: 3px;
            color: #bbb;
            font-size: $fontSize - 4px;
+           /* 过渡效果 */
+           @include transition(All 0.4s ease-in-out);
          }
        }
      }
      .line-left {
        padding:0 5px;
        border-left: solid 1px $borderColor;
+       &:hover {
+         a {
+           color: red;
+         }
+         .icon-more-down, .icon-more-right {
+           &:before {
+             @include rotate(180deg);
+           }
+         }
+       }
      }
      .blue {
        color: $anchorColor;

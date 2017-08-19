@@ -3,8 +3,8 @@
     <div class="wrapper">
       <div class="left">
         <span><a href="">收藏本站</a></span>
-        <span class="line-left">广东&nbsp;&nbsp;<span>[<a href="">切换省份</a>]</span></span>
-        <a href=""><span class="line-left"><img src="./device_09-16.png" alt="" width="14" height="14"/>手机版</span></a>
+        <span class="line-left">江苏&nbsp;&nbsp;<span>[<a href="">切换省份</a>]</span></span>
+        <a href=""><span class="line-left"><img src="./device_09-16.png" alt="" width="14" height="14"/>移动版</span></a>
         <a href=""><img alt="" src="./qrcode-16.png" width="14" height="14"/></a>
         <a href=""><img alt="" class="line-left" src="./weibo-sina-16.png"  width="14" height="14" /></a>
       </div>

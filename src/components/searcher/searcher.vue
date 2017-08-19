@@ -63,7 +63,7 @@
      font-size: $fontSize;
      .searcherBar {
        margin-top: 12px;
-       margin-left: $width / 5;
+       margin-left: $width / 3;
        padding: 2px;
        font-size: $fontSize;
        background-color: #b8052e;
@@ -71,6 +71,8 @@
          width: $fontSize * 30;
          height: 20px;
          padding: $padding;
+         /* 去掉选中时的蓝框 */
+         outline: none;
        }
        .search {
          padding: 5px 15px;
@@ -84,7 +86,7 @@
      }
      .recommendation {
        margin-top: 5px;
-       margin-left: $width / 5;
+       margin-left: $width / 3;
        .item {
          float: left;
          padding: 0 2px;

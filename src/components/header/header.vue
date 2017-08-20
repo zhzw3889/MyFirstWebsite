@@ -1,27 +1,36 @@
 <template>
   <div class="header">
     <div class="wrapper">
-      <div class="left">
-        <span><a href="">收藏本站</a></span>
-        <span class="line-left">江苏&nbsp;&nbsp;<span>[<a href="">切换省份</a>]</span></span>
-        <a href=""><span class="line-left"><img src="./device_09-16.png" alt="" width="14" height="14"/>移动版</span></a>
-        <a href=""><img alt="" src="./qrcode-16.png" width="14" height="14"/></a>
-        <a href=""><img alt="" class="line-left" src="./weibo-sina-16.png"  width="14" height="14" /></a>
+      <div class="left-part">
+        <span>汪汪，欢迎来快GO！</span>
+        <a href=""><span class="line-left"><span class="icon-mobile"></span> 移动版</span></a>
       </div>
-      <div class="right">
-        <span>您好！</span>
-        <span>请<a class="blue" href="">登录注册</a> </span>
-        <span class="line-left"><a href="">我的1号商城</a><span class="icon-more-down"></span></span>
-        <span class="line-left"><a href="">收藏</a><span class="icon-more-down"></span></span>
-        <span class="line-left"><a href="">帮助中心</a><span class="icon-more-down"></span></span>
-        <span class="line-left"><a href="">商家入住通道</a><span class="icon-more-right"></span></span>
+      <div class="right-part">
+        <a class="notLogin" href="">您好！请登录</a>
+        <a class="notLogin register" href="">免费注册</a>
+        <span v-show="login">{{membership}}, 您好! 欢迎回来！</span>
+        <a class="line-left" href="">我的订单<span class="icon-more-down"></span></a>
+        <a class="line-left" href="">我的快GO<span class="icon-more-down"></span></a>
+        <a class="line-left" href=""><span class="icon-star-o"></span> 收藏夹<span class="icon-more-down"></span></a>
+        <a class="line-left" href=""><span class="icon-shopping-cart"></span> 购物车<span class="icon-more-down"></span></a>
       </div>
     </div>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
- export default {};
+ export default {
+   data () {
+     return {
+       /* 登录之后显示，暂定false */
+       login: false,
+       /* 登录之后隐藏 */
+       notLogin: true,
+       /* 用户名显示 */
+       membership: '悟空'
+     };
+   }
+ };
 </script>
 
 <style lang="scss" rel="stylesheet/scss">
@@ -30,42 +39,59 @@
 
  $fontSize: 14px;
  $height: 28px;
+ $fontColor: #7e8c8d;
  $borderColor: #c2c2ba;
- $anchorColor: #0b3be9;
+ /* 链接颜色 */
+ $anchorColor: #FF0036;
 
  .header {
    padding: 0 40px;
    border-bottom: solid 1px $borderColor;
+   color: $fontColor;
    background-color: #f6f6eb;
    transition: all 5s;
    .wrapper {
-     padding-left: 5px;
+     padding: 0 10px;
      font-size: $fontSize;
      height: $height;
      line-height: $height;
      border-left: solid 1px $borderColor;
-     .left {
+     a:hover {
+       color: $anchorColor;
+     }
+     .register {
+       margin: 0 5px;
+       color: $anchorColor;
+     }
+     .left-part {
        display: inline-block;
+       height: $height;
        line-height: $height;
-       img {
-         /* 始终保持图像与文字剧中对齐 */
-         vertical-align: top;
-         margin-top: ($height - 16px) / 2;
+       .icon-mobile {
+         &:before {
+           color: $anchorColor;
+         }
        }
      }
-     .right {
+     .right-part {
        display: inline-block;
        float: right;
-       vertical-align: center;
-       /* 图标字体样式 */
+       height: $height;
+       line-height: $height;
+       /* 图标字体样式, 翻转效果 */
        .icon-more-down, .icon-more-right {
          &:before {
            display: inline-block;
            margin-left: 3px;
-           color: #bbb;
+           color: $fontColor;
            font-size: $fontSize - 4px;
            /* 过渡效果 */
            @include transition(All 0.4s ease-in-out);
+         }
+       }
+       .icon-shopping-cart, .icon-star-o {
+         &:before {
+           color: $anchorColor;
          }
        }
      }
@@ -73,18 +99,13 @@
        padding:0 5px;
        border-left: solid 1px $borderColor;
        &:hover {
-         a {
-           color: red;
-         }
          .icon-more-down, .icon-more-right {
            &:before {
+             color: $anchorColor;
              @include rotate(180deg);
            }
          }
        }
-     }
-     .blue {
-       color: $anchorColor;
      }
    }
  }

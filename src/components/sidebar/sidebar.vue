@@ -66,7 +66,7 @@
       </a>
       <a class="sidebar-item" @click="toTop" v-show="display" href="">
         <span class="sidebar-button">
-          <i class="sidebar-icon icon-arrow-up"></i>
+          <i class="sidebar-icon icon-to-top"></i>
           <span class="sidebar-text">回到<br />顶部</span>
         </span>
       </a>

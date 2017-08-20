@@ -1,7 +1,7 @@
 <template>
   <div class="navigation">
     <div class="container">
-      <div class="left">
+      <div class="menu">
         <ul>
           <li><a href="#" class="topmenu">女装/内衣</a>
             <div class="submenu">
@@ -2231,7 +2231,7 @@
  .container {
    background-color: #d3d8d8;
    height: $height * 16;
-   .left {
+   .menu {
      box-sizing: border-box; /* 简化盒子模型 */
      width: $menuWidth;
      margin-left: 40px;

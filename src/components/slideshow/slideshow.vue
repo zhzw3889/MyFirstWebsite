@@ -7,7 +7,7 @@
         </a>
       </li>
     </transition-group>
-    <div class="slideshow-items" >
+    <div class="slideshow-marks" >
       <span v-for="(item, index) in slideList.length" :class="{'active':index===currentIndex}" @mouseenter="stop" @mouseover="change(index)"></span>
     </div>
     <div class="slide-one">
@@ -100,7 +100,7 @@
    created () {
      this.$nextTick(() => {
        this.timer = setInterval(() => {
-         this.autoPlay();
+         this.play();
        }, 2000);
      });
    }
@@ -112,6 +112,7 @@
  $height: 350px;
  $width: 800px;
 
+ /* 宽度自适应 */
  .slideshow-wrap {
    float: left;
    position: relative;
@@ -127,19 +128,19 @@
      }
    }
    .slide-ul {
-     width: 100%;
-     height: 100%;
+     max-width: 100%;
+     max-height: 100%;
      li {
        position: absolute;
-       width: 100%;
-       height: 100%;
+       max-width: 100%;
+       max-height: 100%;
        img {
-         width: 100%;
-         height: 100%;
+         max-width: 100%;
+         max-height: 100%;
        }
      }
    }
-   .slideshow-items {
+   .slideshow-marks {
      position: absolute;
      /* z-index: 10; */
      left: ($width - 140px) / 2;

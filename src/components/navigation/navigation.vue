@@ -1,7 +1,6 @@
 <template>
   <div class="navigation">
-    <div class="container">
-      <div class="menu">
+    <div class="menu">
         <ul>
           <li><a href="#" class="topmenu">女装/内衣</a>
             <div class="submenu">
@@ -2205,18 +2204,12 @@
           </li>
         </ul>
       </div>
-      <v-slideshow></v-slideshow>
-    </div>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
- import slideshow from '../slideshow/slideshow.vue';
-
  export default {
-   components: {
-     'v-slideshow': slideshow
-   }
+   components: {}
  };
 </script>
 
@@ -2228,10 +2221,7 @@
  $fontSize: 14px;
  $padding: 0 40px;
 
- .container {
-   background-color: #d3d8d8;
-   height: $height * 16;
-   .menu {
+ .menu {
      box-sizing: border-box; /* 简化盒子模型 */
      width: $menuWidth;
      margin-left: 40px;
@@ -2367,5 +2357,4 @@
      }
      /* background-color: yellow; */
    }
- }
 </style>

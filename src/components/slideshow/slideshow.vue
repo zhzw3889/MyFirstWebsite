@@ -7,8 +7,10 @@
         </a>
       </li>
     </transition-group>
-    <div class="slideshow-marks" >
-      <span v-for="(item, index) in slideList.length" :class="{'active':index===currentIndex}" @mouseenter="stop" @mouseover="change(index)"></span>
+    <div class="slideshow-marks-wrapper">
+      <div class="slideshow-marks" >
+        <span v-for="(item, index) in slideList.length" :class="{'active':index===currentIndex}" @mouseenter="stop" @mouseover="change(index)"></span>
+      </div>
     </div>
     <div class="slide-one">
       <span class="prev icon-chevron-thin-left"  @mouseenter="stop" @click="oneLeft"></span>
@@ -110,14 +112,12 @@
 <style lang="scss" rel="stylesheet/scss">
  $btn-color: red;
  $height: 350px;
- $width: 800px;
 
  /* 宽度自适应 */
  .slideshow-wrap {
-   float: left;
    position: relative;
-   height: $height;
-   width: $width;
+   height: 65%;
+   width: 100%;
    overflow: hidden;
    background-color: yellow;
    &:hover {
@@ -129,38 +129,43 @@
    }
    .slide-ul {
      max-width: 100%;
-     max-height: 100%;
+     height: 100%;
      li {
        position: absolute;
        max-width: 100%;
        max-height: 100%;
        img {
          max-width: 100%;
-         max-height: 100%;
+         height: 100%;
        }
      }
    }
-   .slideshow-marks {
+   /* 小圆纽模块居中, 不随整个块的大小改变而错乱 */
+   .slideshow-marks-wrapper {
      position: absolute;
-     /* z-index: 10; */
-     left: ($width - 140px) / 2;
-     top: 300px;
-     margin: 0 auto;
-     padding: 3px 6px;
-     text-align: center;
-     border-radius: 11px;
-     background-color: hsla(0,0%,100%,.3);
-     span {
-       display: inline-block;
-       margin: 0 3px;
-       height: 10px;
-       width: 10px;
-       border-radius: 50%;
-       background-color: #FFF;
-       cursor: pointer;
-     }
-     .active {
-       background-color: $btn-color;
+     bottom: 20px;
+     width: 100%;
+     padding: 0 auto;
+     .slideshow-marks {
+       /* 居中 */
+       margin: 0 auto;
+       padding: 3px 3px;
+       width: 140px;
+       text-align: center;
+       border-radius: 11px;
+       background-color: hsla(0,0%,100%,.3);
+       span {
+         display: inline-block;
+         margin: 0 3px;
+         height: 10px;
+         width: 10px;
+         border-radius: 50%;
+         background-color: #FFF;
+         cursor: pointer;
+       }
+       .active {
+         background-color: $btn-color;
+       }
      }
    }
    .slide-one {

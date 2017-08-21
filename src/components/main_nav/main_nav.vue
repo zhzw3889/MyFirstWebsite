@@ -10,7 +10,7 @@
     <span class="flex item"><a href="">医药馆</a></span>
     <span class="flex item"><a href="">魅力惠</a></span>
     <span class="flex item"><a href="">飞猪旅行</a></span>
-    <span class="flex item"><a href="">苏宁易购</a></span>
+    <span class="flex item"><a href="https://www.suning.com">苏宁易购</a></span>
   </div>
 </template>
 

@@ -117,7 +117,7 @@
  .slideshow-wrap {
    position: relative;
    height: 65%;
-   width: 100%;
+   min-width: 600px;
    overflow: hidden;
    background-color: yellow;
    &:hover {

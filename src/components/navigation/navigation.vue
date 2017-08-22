@@ -2216,7 +2216,7 @@
 <style lang="scss" rel="stylesheet/scss">
  @import '../../common/sass/mixin.scss';
 
- $menuWidth: 200px;
+ $menuWidth: 190px;
  $height: 34px;
  $fontSize: 14px;
  $padding: 0 40px;

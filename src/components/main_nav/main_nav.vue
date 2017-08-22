@@ -25,7 +25,7 @@
 
  $height: 36px;
  $fontSize: 16px;
- $menuWidth: 200px;
+ $menuWidth: 190px;
 
  .main-nav {
    height: $height;

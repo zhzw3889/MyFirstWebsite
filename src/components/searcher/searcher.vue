@@ -36,8 +36,6 @@
 <style lang="scss" rel="stylesheet/scss">
  @import '../../common/sass/mixin.scss';
 
- $width-big: 1000px;
- $width-small: 800px;
  $fontSize: 13px;
  $padding: 5px 5px;
  $fontColor: #7e8c8d;
@@ -87,6 +85,7 @@
            input {
              display: inline-block;
              height: 20px;
+             min-width: 315px;
              line-height: 20px;
              padding: $padding;
              outline: none;

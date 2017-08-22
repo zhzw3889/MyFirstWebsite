@@ -4,12 +4,13 @@
     <v-searcher></v-searcher>
     <v-mainNav></v-mainNav>
     <div class="main-display">
-      <div class="wrapper">
-        <v-navigation class="main_col1"></v-navigation>
-        <div class="main_col2">
+      <div class="main-wrapper">
+        <v-navigation class="main-col1"></v-navigation>
+        <div class="main-col2">
           <v-slideshow></v-slideshow>
+          <div class="rest"></div>
         </div>
-        <div class="main_col3">
+        <div class="main-col3">
         </div>
       </div>
     </div>
@@ -46,18 +47,22 @@
  @import './common/sass/mixin.scss';
 
  .main-display {
-   display: flex;
    background-color: #d3d8d8;
-   .wrapper {
+   .main-wrapper {
+     display: flex;
+     box-sizing: border-box;
      @include media-check;
-     .main_col1 {
-
-     }
-     .main_col2 {
+     overflow: hidden;
+     .main-col2 {
        flex: 1;
+       .rest {
+         margin-top: 1%;
+         height: 34%;
+         background-color: red;
+       }
      }
-     .main_col3 {
-       width: 250px;
+     .main-col3 {
+       width: 210px;
        background-color: green;
      }
    }

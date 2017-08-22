@@ -73,6 +73,7 @@
      }
      .right-part {
        display: inline-block;
+       margin-right: 20px;
        float: right;
        height: $height;
        line-height: $height;

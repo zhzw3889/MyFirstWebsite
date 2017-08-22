@@ -11,8 +11,7 @@
             <span class="icon-magnifier"></span>
             <input name="" type="text" placeholder="搜索 快购商城 店铺/商品" value=""/>
             <span class="icon-camera"></span>
-          </form>
-          <button class="search-text" href="">搜索</button>
+          </form><button class="search-text" href="">搜索</button>
         </div>
         <div class="recommendation">
           <li class="recom-item"><a href="#">大闸蟹</a></li>

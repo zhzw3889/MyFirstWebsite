@@ -123,7 +123,6 @@
    height: $height;
    @include media-check;
    overflow: hidden;
-   background-color: yellow;
    &:hover {
      .slide-one {
        .prev, .next {

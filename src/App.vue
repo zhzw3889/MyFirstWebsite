@@ -22,7 +22,9 @@
         </div>
       </div>
     </div>
-    <v-sidebar></v-sidebar>
+    <v-sidebar class="sidebar"></v-sidebar>
+    <v-toTop class="to-top"></v-toTop>
+    <v-test></v-test>
     <v-footer></v-footer>
   </div>
 </template>
@@ -36,6 +38,7 @@
  import test from './components/test/test.vue';
  import mainNav from './components/main_nav/main_nav.vue';
  import footer from './components/footer/footer.vue';
+ import toTop from './components/to_top.vue';
 
  export default {
    components: {
@@ -46,13 +49,28 @@
      'v-sidebar': sidebar,
      'v-test': test,
      'v-mainNav': mainNav,
-     'v-footer': footer
+     'v-footer': footer,
+     'v-toTop': toTop
    }
  };
 </script>
 
 <style lang="scss" rel="stylesheet/scss">
  @import './common/sass/mixin.scss';
+
+ .sidebar {
+   @media only screen and (max-width: 800px) {
+     display: none;
+   }
+ }
+ .to-top {
+   @media only screen and (max-width: 799px) {
+     display: block;
+   }
+   @media only screen and (min-width: 800px) {
+     display: none;
+   }
+ }
 
  .main-display {
    min-width: $min-width;

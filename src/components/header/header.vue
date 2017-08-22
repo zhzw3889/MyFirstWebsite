@@ -62,6 +62,7 @@
      }
      .left-part {
        display: inline-block;
+       margin-left: 20px;
        height: $height;
        line-height: $height;
        .icon-mobile {

@@ -113,7 +113,7 @@
  @import '../../common/sass/mixin.scss';
 
  $btn-color: red;
- $height: 260px;
+ $height: 258px;
  $max-width: 850px;
  $mid-width: 800px;
  $min-width: 600px;

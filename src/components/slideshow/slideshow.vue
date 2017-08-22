@@ -111,16 +111,16 @@
 
 <style lang="scss" rel="stylesheet/scss">
  @import '../../common/sass/mixin.scss';
- 
+
  $btn-color: red;
- $height: 350px;
+ $height: 288px;
  $max-width: 850px;
  $mid-width: 800px;
  $min-width: 600px;
  /* 宽度自适应 */
  .slideshow-wrap {
    position: relative;
-   height: 65%;
+   height: $height;
    @include media-check;
    overflow: hidden;
    background-color: yellow;

@@ -51,8 +51,8 @@
 <style lang="scss" rel="stylesheet/scss">
  .to-top {
    position: fixed;
-   right: 10px;
-   bottom: 10px;
+   right: 50px;
+   bottom: 50px;
    width: 50px;
    height: 50px;
    text-align: center;

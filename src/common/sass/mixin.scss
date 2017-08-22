@@ -1,6 +1,19 @@
 $min-width: 1000px;
 $anchorColor: #FF0036;
 
+/* flex布局兼容性 */
+@mixin display-flex {
+    display: -wekit-box;
+    display: -wekit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+@mixin flex-1 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
 /* 桌面版媒体查询 */
 @mixin media-check {
     @media only screen and (max-width: 2000px) {

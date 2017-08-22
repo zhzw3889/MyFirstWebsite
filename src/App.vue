@@ -8,7 +8,15 @@
         <v-navigation class="main-col1"></v-navigation>
         <div class="main-col2">
           <v-slideshow></v-slideshow>
-          <div class="rest"></div>
+          <div class="main-col2-extend">
+            <a class="main-col2-extend-1" href="">
+              <img alt="" src="./1.png"/>
+            </a>
+            <span></span>
+            <a class="main-col2-extend-2" href="">
+              <img alt="" src="./2.png"/>
+            </a>
+          </div>
         </div>
         <div class="main-col3">
         </div>
@@ -50,15 +58,27 @@
    min-width: $min-width;
    background-color: #d3d8d8;
    .main-wrapper {
-     display: flex;
+     @include display-flex;
      box-sizing: border-box;
      @include media-check;
      overflow: hidden;
      .main-col2 {
-       flex: 1;
-       .rest {
+       @include flex-1;
+       .main-col2-extend {
          margin-top: 1%;
          height: 34%;
+         @include display-flex;
+         span {
+           width: 8px;
+         }
+         .main-col2-extend-1, .main-col2-extend-2 {
+           @include flex-1;
+           height: 100%;
+           img {
+             height: 100%;
+             width: 100%;
+           }
+         }
        }
      }
      .main-col3 {

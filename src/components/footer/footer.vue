@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="footer">
     <p class="about-us">
       <a class="about-us-item" href="">关于我们</a>
       <a class="about-us-item" href="">联系我们</a>
@@ -30,7 +30,7 @@
 <style lang="scss" rel="stylesheet/scss">
  $fontSize: 13px;
 
- .container {
+ .footer {
    min-width: 1000px;
    background-color: #eaeaea;
    font-size: $fontSize;

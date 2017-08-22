@@ -58,7 +58,7 @@
 <style lang="scss" rel="stylesheet/scss">
  @import './common/sass/mixin.scss';
 
- .sidebar {
+  .sidebar {
    @media only screen and (max-width: 800px) {
      display: none;
    }

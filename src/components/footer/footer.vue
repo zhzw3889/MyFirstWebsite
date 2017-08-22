@@ -31,6 +31,7 @@
  $fontSize: 13px;
 
  .container {
+   min-width: 1000px;
    background-color: #eaeaea;
    font-size: $fontSize;
    /* BFC手段，否则顶部必须padding-top才会留空档 */

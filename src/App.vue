@@ -47,6 +47,7 @@
  @import './common/sass/mixin.scss';
 
  .main-display {
+   min-width: $min-width;
    background-color: #d3d8d8;
    .main-wrapper {
      display: flex;
@@ -58,7 +59,6 @@
        .rest {
          margin-top: 1%;
          height: 34%;
-         background-color: red;
        }
      }
      .main-col3 {

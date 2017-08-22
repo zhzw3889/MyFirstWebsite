@@ -2257,7 +2257,7 @@
          width: $width;
          height: ($height - 2px) * 16;
          position: absolute; /* 相对li定位 */
-         left: 200px;
+         left: $menuWidth;
          top: 0;
          z-index: 5;
          a {

@@ -26,12 +26,15 @@
  $height: 36px;
  $fontSize: 16px;
  $menuWidth: 190px;
+ $min-width: 1000px;
 
  .main-nav {
+   /* 当实际尺寸小于1000px时不会被压短 */
+   min-width: $min-width;
    height: $height;
    color: #fff;
    font-size: $fontSize;
-   background-color: red;
+   background-color: $anchorColor;
    .wrapper {
      @include media-check;
      .pic1 {

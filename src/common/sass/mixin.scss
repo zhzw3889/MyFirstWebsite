@@ -1,17 +1,18 @@
-$width-biggest: 1250px;
-$width-big: 1200px;
-$width-small: 1000px;
+$min-width: 1000px;
+$anchorColor: #FF0036;
 
+/* 桌面版媒体查询 */
 @mixin media-check {
     @media only screen and (max-width: 2000px) {
-        width: $width-biggest;
+        width: 1250px;
     };
     @media only screen and (max-width: 1360px) {
-        width: $width-big;
+        width: 1200px;
     };
-    @media only screen and (max-width: 1210px) {
-        width: $width-small;
+    @media only screen and (min-width: 300px) and (max-width: 1210px) {
+        width: 1000px;
     };
+    /* 居中 */
     margin: 0 auto;
 }
 

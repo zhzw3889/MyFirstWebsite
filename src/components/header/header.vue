@@ -41,10 +41,9 @@
  $height: 28px;
  $fontColor: #7e8c8d;
  $borderColor: #c2c2ba;
- /* 链接颜色 */
- $anchorColor: #FF0036;
 
  .header {
+   min-width: $min-width;
    border-bottom: solid 1px $borderColor;
    color: $fontColor;
    background-color: #f6f6eb;
@@ -73,7 +72,7 @@
      }
      .right-part {
        display: inline-block;
-       margin-right: 20px;
+       margin-right: 40px;
        float: right;
        height: $height;
        line-height: $height;

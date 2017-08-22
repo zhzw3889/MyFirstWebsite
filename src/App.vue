@@ -66,7 +66,7 @@
        @include flex-1;
        .main-col2-extend {
          margin-top: 1%;
-         height: 34%;
+         height: 120px;
          @include display-flex;
          span {
            width: 8px;

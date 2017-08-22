@@ -1,3 +1,20 @@
+$width-biggest: 1250px;
+$width-big: 1200px;
+$width-small: 1000px;
+
+@mixin media-check {
+    @media only screen and (max-width: 2000px) {
+        width: $width-biggest;
+    };
+    @media only screen and (max-width: 1360px) {
+        width: $width-big;
+    };
+    @media only screen and (max-width: 1210px) {
+        width: $width-small;
+    };
+    margin: 0 auto;
+}
+
 @mixin transition($transition) {
     -webkit-transition: $transition;
     -moz-transition: $transition;

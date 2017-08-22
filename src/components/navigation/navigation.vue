@@ -2224,7 +2224,6 @@
  .menu {
      box-sizing: border-box; /* 简化盒子模型 */
      width: $menuWidth;
-     margin-left: 40px;
      float: left;
      position: relative; /* 用于右侧隐藏分类导航的定位 */
      & li {

@@ -34,25 +34,23 @@
 </script>
 
 <style lang="scss" rel="stylesheet/scss">
+ @import '../../common/sass/mixin.scss';
+
+ $width-big: 1000px;
+ $width-small: 800px;
  $fontSize: 13px;
  $padding: 5px 5px;
  $fontColor: #7e8c8d;
  $anchorColor: #FF0036;
 
- /* 清楚浮动 */
- /* .clearfix:after {
-    content:".";
-    display:block;
-    height:0;
-    clear:both;
-    visibility:hidden
-    } */
  /* 左侧定宽，右侧自适应并居中, 采用flex方案 */
  .searcher {
-   padding: 15px 40px;
+   padding: 15px 0;
+   width: 100%;
    /* 高度自适应 */
    /* height: $height; */
    .wrapper {
+     @include media-check;
      display: flex;
      .logo {
        display: inline-block;
@@ -83,7 +81,7 @@
          .search-blank {
            position: relative;
            display: inline-block;
-           min-width: 340px;
+           min-width: 380px;
            background-color: #fff;
            border: 2px solid $anchorColor;
            input {

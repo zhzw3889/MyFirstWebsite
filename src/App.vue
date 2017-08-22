@@ -4,16 +4,16 @@
     <v-searcher></v-searcher>
     <v-mainNav></v-mainNav>
     <div class="main-display">
-      <v-navigation class="main_col1"></v-navigation>
-      <div class="main_col2">
-        <v-slideshow></v-slideshow>
-      </div>
-      <div class="main_col3">
-
+      <div class="wrapper">
+        <v-navigation class="main_col1"></v-navigation>
+        <div class="main_col2">
+          <v-slideshow></v-slideshow>
+        </div>
+        <div class="main_col3">
+        </div>
       </div>
     </div>
     <v-sidebar></v-sidebar>
-    <v-test class="test"></v-test>
     <v-footer></v-footer>
   </div>
 </template>
@@ -43,23 +43,23 @@
 </script>
 
 <style lang="scss" rel="stylesheet/scss">
+ @import './common/sass/mixin.scss';
+
  .main-display {
    display: flex;
-   width: 100%;
-   margin: 0 auto;
    background-color: #d3d8d8;
-   .main_col1 {
+   .wrapper {
+     @include media-check;
+     .main_col1 {
 
-   }
-   .main_col2 {
-     flex: 1;
-   }
-   .main_col3 {
-     width: 250px;
-     background-color: green;
-   }
-   .test {
-     background-color: yellow;
+     }
+     .main_col2 {
+       flex: 1;
+     }
+     .main_col3 {
+       width: 250px;
+       background-color: green;
+     }
    }
  }
 </style>

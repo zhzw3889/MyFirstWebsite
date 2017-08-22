@@ -45,17 +45,15 @@
  $anchorColor: #FF0036;
 
  .header {
-   padding: 0 40px;
    border-bottom: solid 1px $borderColor;
    color: $fontColor;
    background-color: #f6f6eb;
    transition: all 5s;
    .wrapper {
-     padding: 0 10px;
+     @include media-check;
      font-size: $fontSize;
      height: $height;
      line-height: $height;
-     border-left: solid 1px $borderColor;
      a:hover {
        color: $anchorColor;
      }

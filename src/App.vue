@@ -65,11 +65,11 @@
      .main-col2 {
        @include flex-1;
        .main-col2-extend {
-         margin-top: 1%;
-         height: 120px;
+         margin-top: 6px;
+         height: 124px;
          @include display-flex;
          span {
-           width: 8px;
+           width: 6px;
          }
          .main-col2-extend-1, .main-col2-extend-2 {
            @include flex-1;

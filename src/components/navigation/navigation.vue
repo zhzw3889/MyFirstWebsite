@@ -93,17 +93,6 @@
                     <a href="">性感睡裙</a>
                   </dd>
                 </dl>
-                <dl>
-                  <dt>内裤背心<span class="icon-more-right"></span></dt>
-                  <dd>
-                    <a href="">男士内裤</a>
-                    <a href="">女式内裤</a>
-                    <a href="">男士内裤多条装</a>
-                    <a href="">女士内裤多条装</a>
-                    <a href="">莫代尔内裤</a>
-                    <a href="">吊带背心</a>
-                  </dd>
-                </dl>
               </div>
               <div class="brands">
                 <div class="sub-logo">
@@ -124,12 +113,6 @@
                   </a>
                   <a class="logo" href="">
                     <img alt="" src="./brands/brand_6.jpg"/>
-                  </a>
-                  <a class="logo" href="">
-                    <img alt="" src="./brands/brand_7.jpg"/>
-                  </a>
-                  <a class="logo" href="">
-                    <img alt="" src="./brands/brand_8.jpg"/>
                   </a>
                   <a class="logo" href="">
                     <img alt="" src="./brands/brand_9.jpg"/>
@@ -243,21 +226,6 @@
                     <a href="">情侣装</a>
                   </dd>
                 </dl>
-                <dl>
-                  <dt>运动服<span class="icon-more-right"></span></dt>
-                  <dd>
-                    <a href="">短袖t恤</a>
-                    <a href="">运动裤</a>
-                    <a href="">运动内衣</a>
-                    <a href="">速干t恤</a>
-                    <a href="">运动Polo</a>
-                    <a href="">运动卫衣</a>
-                    <a href="">运动套装</a>
-                    <a href="">运动短裤</a>
-                    <a href="">健身服</a>
-                    <a href="">运动茄克</a>
-                  </dd>
-                </dl>
               </div>
               <div class="brands">
                 右侧推荐品牌
@@ -347,21 +315,6 @@
                     <a href="">职场精英</a>
                     <a href="">中国风</a>
                     <a href="">情侣装</a>
-                  </dd>
-                </dl>
-                <dl>
-                  <dt>运动服</dt>
-                  <dd>
-                    <a href="">短袖t恤</a>
-                    <a href="">运动裤</a>
-                    <a href="">运动内衣</a>
-                    <a href="">速干t恤</a>
-                    <a href="">运动Polo</a>
-                    <a href="">运动卫衣</a>
-                    <a href="">运动套装</a>
-                    <a href="">运动短裤</a>
-                    <a href="">健身服</a>
-                    <a href="">运动茄克</a>
                   </dd>
                 </dl>
               </div>
@@ -455,21 +408,6 @@
                     <a href="">情侣装</a>
                   </dd>
                 </dl>
-                <dl>
-                  <dt>运动服</dt>
-                  <dd>
-                    <a href="">短袖t恤</a>
-                    <a href="">运动裤</a>
-                    <a href="">运动内衣</a>
-                    <a href="">速干t恤</a>
-                    <a href="">运动Polo</a>
-                    <a href="">运动卫衣</a>
-                    <a href="">运动套装</a>
-                    <a href="">运动短裤</a>
-                    <a href="">健身服</a>
-                    <a href="">运动茄克</a>
-                  </dd>
-                </dl>
               </div>
               <div class="brands">
                 右侧推荐品牌
@@ -559,21 +497,6 @@
                     <a href="">职场精英</a>
                     <a href="">中国风</a>
                     <a href="">情侣装</a>
-                  </dd>
-                </dl>
-                <dl>
-                  <dt>运动服</dt>
-                  <dd>
-                    <a href="">短袖t恤</a>
-                    <a href="">运动裤</a>
-                    <a href="">运动内衣</a>
-                    <a href="">速干t恤</a>
-                    <a href="">运动Polo</a>
-                    <a href="">运动卫衣</a>
-                    <a href="">运动套装</a>
-                    <a href="">运动短裤</a>
-                    <a href="">健身服</a>
-                    <a href="">运动茄克</a>
                   </dd>
                 </dl>
               </div>
@@ -667,21 +590,6 @@
                     <a href="">情侣装</a>
                   </dd>
                 </dl>
-                <dl>
-                  <dt>运动服</dt>
-                  <dd>
-                    <a href="">短袖t恤</a>
-                    <a href="">运动裤</a>
-                    <a href="">运动内衣</a>
-                    <a href="">速干t恤</a>
-                    <a href="">运动Polo</a>
-                    <a href="">运动卫衣</a>
-                    <a href="">运动套装</a>
-                    <a href="">运动短裤</a>
-                    <a href="">健身服</a>
-                    <a href="">运动茄克</a>
-                  </dd>
-                </dl>
               </div>
               <div class="brands">
                 右侧推荐品牌
@@ -771,21 +679,6 @@
                     <a href="">职场精英</a>
                     <a href="">中国风</a>
                     <a href="">情侣装</a>
-                  </dd>
-                </dl>
-                <dl>
-                  <dt>运动服</dt>
-                  <dd>
-                    <a href="">短袖t恤</a>
-                    <a href="">运动裤</a>
-                    <a href="">运动内衣</a>
-                    <a href="">速干t恤</a>
-                    <a href="">运动Polo</a>
-                    <a href="">运动卫衣</a>
-                    <a href="">运动套装</a>
-                    <a href="">运动短裤</a>
-                    <a href="">健身服</a>
-                    <a href="">运动茄克</a>
                   </dd>
                 </dl>
               </div>
@@ -879,21 +772,6 @@
                     <a href="">情侣装</a>
                   </dd>
                 </dl>
-                <dl>
-                  <dt>运动服</dt>
-                  <dd>
-                    <a href="">短袖t恤</a>
-                    <a href="">运动裤</a>
-                    <a href="">运动内衣</a>
-                    <a href="">速干t恤</a>
-                    <a href="">运动Polo</a>
-                    <a href="">运动卫衣</a>
-                    <a href="">运动套装</a>
-                    <a href="">运动短裤</a>
-                    <a href="">健身服</a>
-                    <a href="">运动茄克</a>
-                  </dd>
-                </dl>
               </div>
               <div class="brands">
                 右侧推荐品牌
@@ -983,21 +861,6 @@
                     <a href="">职场精英</a>
                     <a href="">中国风</a>
                     <a href="">情侣装</a>
-                  </dd>
-                </dl>
-                <dl>
-                  <dt>运动服</dt>
-                  <dd>
-                    <a href="">短袖t恤</a>
-                    <a href="">运动裤</a>
-                    <a href="">运动内衣</a>
-                    <a href="">速干t恤</a>
-                    <a href="">运动Polo</a>
-                    <a href="">运动卫衣</a>
-                    <a href="">运动套装</a>
-                    <a href="">运动短裤</a>
-                    <a href="">健身服</a>
-                    <a href="">运动茄克</a>
                   </dd>
                 </dl>
               </div>
@@ -1091,21 +954,6 @@
                     <a href="">情侣装</a>
                   </dd>
                 </dl>
-                <dl>
-                  <dt>运动服</dt>
-                  <dd>
-                    <a href="">短袖t恤</a>
-                    <a href="">运动裤</a>
-                    <a href="">运动内衣</a>
-                    <a href="">速干t恤</a>
-                    <a href="">运动Polo</a>
-                    <a href="">运动卫衣</a>
-                    <a href="">运动套装</a>
-                    <a href="">运动短裤</a>
-                    <a href="">健身服</a>
-                    <a href="">运动茄克</a>
-                  </dd>
-                </dl>
               </div>
               <div class="brands">
                 右侧推荐品牌
@@ -1195,21 +1043,6 @@
                     <a href="">职场精英</a>
                     <a href="">中国风</a>
                     <a href="">情侣装</a>
-                  </dd>
-                </dl>
-                <dl>
-                  <dt>运动服</dt>
-                  <dd>
-                    <a href="">短袖t恤</a>
-                    <a href="">运动裤</a>
-                    <a href="">运动内衣</a>
-                    <a href="">速干t恤</a>
-                    <a href="">运动Polo</a>
-                    <a href="">运动卫衣</a>
-                    <a href="">运动套装</a>
-                    <a href="">运动短裤</a>
-                    <a href="">健身服</a>
-                    <a href="">运动茄克</a>
                   </dd>
                 </dl>
               </div>
@@ -1303,21 +1136,6 @@
                     <a href="">情侣装</a>
                   </dd>
                 </dl>
-                <dl>
-                  <dt>运动服</dt>
-                  <dd>
-                    <a href="">短袖t恤</a>
-                    <a href="">运动裤</a>
-                    <a href="">运动内衣</a>
-                    <a href="">速干t恤</a>
-                    <a href="">运动Polo</a>
-                    <a href="">运动卫衣</a>
-                    <a href="">运动套装</a>
-                    <a href="">运动短裤</a>
-                    <a href="">健身服</a>
-                    <a href="">运动茄克</a>
-                  </dd>
-                </dl>
               </div>
               <div class="brands">
                 右侧推荐品牌
@@ -1409,21 +1227,6 @@
                     <a href="">情侣装</a>
                   </dd>
                 </dl>
-                <dl>
-                  <dt>运动服</dt>
-                  <dd>
-                    <a href="">短袖t恤</a>
-                    <a href="">运动裤</a>
-                    <a href="">运动内衣</a>
-                    <a href="">速干t恤</a>
-                    <a href="">运动Polo</a>
-                    <a href="">运动卫衣</a>
-                    <a href="">运动套装</a>
-                    <a href="">运动短裤</a>
-                    <a href="">健身服</a>
-                    <a href="">运动茄克</a>
-                  </dd>
-                </dl>
               </div>
               <div class="brands">
                 右侧推荐品牌
@@ -1445,7 +1248,7 @@
  @import '../../common/sass/mixin.scss';
 
  $menuWidth: 190px;
- $height: 34px;
+ $height: 30px;
  $fontSize: 14px;
  $padding: 0 40px;
 
@@ -1483,7 +1286,7 @@
          display: none;
          background-color: #fff;
          width: $width;
-         height: ($height - 2px) * 16;
+         height: $height  * 13;
          position: absolute; /* 相对li定位 */
          left: $menuWidth;
          top: 0;
@@ -1550,7 +1353,7 @@
            /* .logo的margin-left有4px，加上此padding-left的2px正好两边都是6px */
            padding: 6px 6px 6px 2px;
            width: $width / 4;
-           height: ($height - 2px) * 16;
+           height: $height * 13;
            float: left;
            /* background-color: #FAFAFA; */
            background-color: #c0f5b7;

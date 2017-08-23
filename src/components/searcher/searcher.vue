@@ -75,11 +75,13 @@
          vertical-align: center;
          /* 搜索框与下面推荐文字左对齐 */
          text-align: left;
-         font-size: $fontSize;
+         /* 去除搜索前空格 */
+         font-size: 0;
          .search-blank {
            position: relative;
            display: inline-block;
            min-width: 380px;
+           font-size: $fontSize;
            background-color: #fff;
            border: 2px solid $anchorColor;
            input {

@@ -26,7 +26,7 @@
  $height: 36px;
  $fontSize: 16px;
  $menuWidth: 190px;
- $min-width: 1000px;
+
 
  .main-nav {
    /* 当实际尺寸小于1000px时不会被压短 */

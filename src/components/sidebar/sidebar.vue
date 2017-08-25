@@ -133,7 +133,6 @@
    min-width:  $sidebar-size;
    right: 0;
    top: 0;
-   z-index: 100;
    background-color: #333;
 
    /* 左侧边栏，暂未开发，以后再加 */

@@ -3,11 +3,12 @@
     <div class="wrapper">
       <div class="left-part">
         <span>汪汪，欢迎来快GO！</span>
+        <!-- 移动版，以后再加！ -->
         <a href=""><span class="line-left"><span class="icon-mobile"></span> 移动版</span></a>
       </div>
       <div class="right-part">
-        <a class="notLogin" href="">您好！请登录</a>
-        <a class="notLogin register" href="">免费注册</a>
+        <router-link class="notLogin" to="/login">您好！请登录</router-link>
+        <router-link class="notLogin register" to="/login">免费注册</router-link>
         <span v-show="login">{{membership}}, 您好! 欢迎回来！</span>
         <a class="line-left" href="">我的订单<span class="icon-more-down"></span></a>
         <a class="line-left" href="">我的快GO<span class="icon-more-down"></span></a>
@@ -35,7 +36,7 @@
 
 <style lang="scss" rel="stylesheet/scss">
  /* 在main.js中已经引入index.scss, 故不需要再每次都引入 */
- @import '../../common/sass/mixin.scss';
+ @import '../../../common/sass/mixin.scss';
 
  $fontSize: 14px;
  $height: 28px;

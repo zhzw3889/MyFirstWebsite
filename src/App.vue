@@ -25,19 +25,20 @@
     <v-sidebar class="sidebar"></v-sidebar>
     <v-toTop class="to-top"></v-toTop>
     <v-test></v-test>
+    <router-view></router-view>
     <v-footer></v-footer>
   </div>
 </template>
 
 <script>
- import header from './components/header/header.vue';
+ import header from './components/basic/header/header.vue';
  import searcher from './components/searcher/searcher.vue';
  import navigation from './components/navigation/navigation.vue';
  import slideshow from './components/slideshow/slideshow.vue';
  import sidebar from './components/sidebar/sidebar.vue';
  import test from './components/test/test.vue';
  import mainNav from './components/main_nav/main_nav.vue';
- import footer from './components/footer/footer.vue';
+ import footer from './components/basic/footer/footer.vue';
  import toTop from './components/to_top.vue';
 
  export default {

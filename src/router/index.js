@@ -1,15 +1,18 @@
 import Vue from 'vue';
-import Router from 'vue-router';
-/* import Hello from '@/components/Hello' */
+import VueRouter from 'vue-router';
+/* import App from '../App.vue'; */
+import login from '../components/login/login.vue';
+/* import mask from '../components/mask/mask.vue'; */
+/* mask遮罩层设置 */
 
-Vue.use(Router);
+Vue.use(VueRouter);
 
-export default new Router({
+export default new VueRouter({
   routes: [
     {
-      /* path: '/',
-       * name: 'Hello',
-       * component: Hello */
+      path: '/login',
+      name: 'login',
+      component: login
     }
   ]
 });

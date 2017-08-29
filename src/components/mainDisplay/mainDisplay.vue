@@ -71,7 +71,8 @@
        }
      }
      .main-col3 {
-       width: 210px;
+       margin-left: 5px;
+       width: 205px;
        background-color: green;
      }
    }

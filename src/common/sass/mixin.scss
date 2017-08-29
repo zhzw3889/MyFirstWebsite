@@ -18,13 +18,13 @@ $anchorColor: #FF0036;
 }
 /* 桌面版媒体查询 */
 @mixin media-check {
-    @media only screen and (max-width: 2000px) {
+    @media only screen and (max-width: 4000px) {
         width: $max-width;
     };
     @media only screen and (max-width: 1360px) {
         width: $mid-width;
     };
-    @media only screen and (min-width: 0) and (max-width: 1210px) {
+    @media only screen and (max-width: 1210px) {
         width: $min-width;
     };
     /* 居中 */

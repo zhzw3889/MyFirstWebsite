@@ -3,7 +3,7 @@
     <v-mask></v-mask>
     <div class="login">
       <div class="title">
-        用户登录
+        用户注册
       </div>
       <div class="user">
         <div class="input-error" v-show="errorAlert">
@@ -20,13 +20,32 @@
           <span class="icon icon-lock"></span>
           <input class="user-input" name="" type="text" value="" placeholder="密码" autocomplete="off"/>
         </div>
+        <div class="user-item password-confirm clearfix">
+          <span class="icon icon-lock"></span>
+          <input class="user-input" name="" type="text" value="" placeholder="请再输入一次密码" autocomplete="off"/>
+        </div>
+        <div class="user-item phone-number clearfix">
+          <span class="icon icon-phone"></span>
+          <input class="user-input" name="" type="text" value="" placeholder="请输入手机号" autocomplete="off"/>
+        </div>
+        <div class="user-item email clearfix">
+          <span class="icon icon-envelope"></span>
+          <input class="user-input" name="" type="text" value="" placeholder="请输入邮箱地址" autocomplete="off"/>
+        </div>
+        <div class="user-item question clearfix">
+          <span class="icon icon-question"></span>
+          <input class="user-input" name="" type="text" value="" placeholder="请输入密码提示问题" autocomplete="off"/>
+        </div>
+        <div class="user-item answer clearfix">
+          <span class="icon icon-key"></span>
+          <input class="user-input" name="" type="text" value="" placeholder="密码提示问题答案" autocomplete="off"/>
+        </div>
       </div>
       <button class="login-btn">
         登 录
       </button>
       <div class="others">
-        <router-link class="others-item" to="/findPassword">忘记密码</router-link>
-        <router-link class="others-item" to="/register">用户注册</router-link>
+        <router-link class="others-item" to="/login">直接登录 ></router-link>
       </div>
     </div>
   </div>
@@ -65,8 +84,8 @@
    @media only screen and (min-width: 0) and (max-width: 1210px) {
      left: 350px;
    };
-   top: 30%;
-   width: 300px;
+   top: 15%;
+   width: 350px;
    padding-bottom: 20px;
    text-align: center;
    font-size: $fontSize;
@@ -116,7 +135,7 @@
          background-color: #eee;
        }
        .user-input {
-         width: 172px;
+         width: 200px;
          height: 36px;
          line-height: 36px;
          padding: 0 6px;

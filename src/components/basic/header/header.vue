@@ -8,7 +8,7 @@
       </div>
       <div class="right-part">
         <router-link class="notLogin" to="/login">您好！请登录</router-link>
-        <router-link class="notLogin register" to="/login">免费注册</router-link>
+        <router-link class="notLogin register" to="/register">免费注册</router-link>
         <span v-show="login">{{membership}}, 您好! 欢迎回来！</span>
         <a class="line-left" href="">我的订单<span class="icon-more-down"></span></a>
         <a class="line-left" href="">我的快GO<span class="icon-more-down"></span></a>

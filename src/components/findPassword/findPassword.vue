@@ -3,7 +3,7 @@
     <v-mask></v-mask>
     <div class="login">
       <div class="title">
-        用户登录
+        找回密码
       </div>
       <div class="user">
         <div class="input-error" v-show="errorAlert">
@@ -25,8 +25,7 @@
         登 录
       </button>
       <div class="others">
-        <router-link class="others-item" to="/findPassword">忘记密码</router-link>
-        <router-link class="others-item" to="/register">用户注册</router-link>
+        <router-link class="others-item" to="/login">返回登录 ></router-link>
       </div>
     </div>
   </div>

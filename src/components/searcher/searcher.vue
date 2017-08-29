@@ -45,6 +45,7 @@
  .searcher {
    padding: 15px 0;
    width: 100%;
+   background-color: #fff;
    /* 高度自适应 */
    /* height: $height; */
    .wrapper {

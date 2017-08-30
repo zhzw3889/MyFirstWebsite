@@ -29,36 +29,36 @@
      return {
        items: [
          {
-           info: '电脑馆',
-           image: require('./digitalProducts/1-1.webp')
+           info: '各式电脑',
+           image: require('./digitalProducts/1-1.jpg')
          },
          {
            info: '外设装备',
-           image: require('./digitalProducts/1-2.webp')
+           image: require('./digitalProducts/1-2.jpg')
          },
          {
            info: '平板电脑',
-           image: require('./digitalProducts/1-3.webp')
+           image: require('./digitalProducts/1-3.jpg')
          },
          {
            info: '开学采购',
-           image: require('./digitalProducts/1-4.webp')
+           image: require('./digitalProducts/1-4.jpg')
          },
          {
            info: '娱乐影音',
-           image: require('./digitalProducts/1-5.webp')
+           image: require('./digitalProducts/1-5.jpg')
          },
          {
            info: '摄影摄像',
-           image: require('./digitalProducts/1-6.webp')
+           image: require('./digitalProducts/1-6.jpg')
          },
          {
            info: '3C新品',
-           image: require('./digitalProducts/1-7.webp')
+           image: require('./digitalProducts/1-7.jpg')
          },
          {
            info: '手机新品',
-           image: require('./digitalProducts/1-8.webp')
+           image: require('./digitalProducts/1-8.jpg')
          }
        ]
      };

@@ -2,8 +2,6 @@
   <div id="app">
     <v-header></v-header>
     <v-mainDisplay></v-mainDisplay>
-    <v-sidebar class="sidebar"></v-sidebar>
-    <v-toTop class="to-top"></v-toTop>
     <v-goodsList
       v-for="(item, index) in items"
       v-bind:title="item.message"
@@ -11,6 +9,8 @@
       v-bind:key="item.id"
       v-bind:image="item.image"
     ></v-goodsList>
+    <v-sidebar class="sidebar"></v-sidebar>
+    <v-toTop class="to-top"></v-toTop>
     <router-view></router-view>
     <v-footer></v-footer>
   </div>

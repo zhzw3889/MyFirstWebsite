@@ -11,8 +11,7 @@
             <span class="icon-magnifier"></span>
             <input name="" type="text" placeholder="搜索 快购商城 店铺/商品" value=""/>
             <span class="icon-camera"></span>
-          </form>
-          <button class="search-text" href="">搜索</button>
+          </form><button class="search-text" href="">搜索</button>
         </div>
         <div class="recommendation">
           <li class="recom-item"><a href="#">大闸蟹</a></li>
@@ -73,14 +72,13 @@
        font-size: $fontSize;
        .search-bar {
          box-sizing: border-box;
-         vertical-align: center;
          /* 搜索框与下面推荐文字左对齐 */
          text-align: left;
-         /* 去除搜索前空格 */
-         font-size: 0;
          .search-blank {
            position: relative;
            display: inline-block;
+           /* 与搜索框对齐 */
+           vertical-align: top;
            min-width: 380px;
            font-size: $fontSize;
            background-color: #fff;
@@ -119,7 +117,7 @@
            padding: 0 20px;
            border: none;
            /* 紧靠前面块元素 */
-           position: absolute;
+           /* position: absolute; */
            color: #fff;
            font-size: $fontSize + 3px;
            font-weight: bold;

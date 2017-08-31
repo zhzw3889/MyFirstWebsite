@@ -1282,7 +1282,6 @@
        }
        .submenu {
          $width: 800px;
-
          display: none;
          background-color: #fff;
          width: $width;

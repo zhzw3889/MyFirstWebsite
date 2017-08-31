@@ -7,10 +7,10 @@
           <a href=""><img alt="" :src="image"/></a>
         </div>
         <div class="goods-col2">
-          <li v-for="item in items">
+          <li v-for="subitem in subitems">
             <a href="">
-              <span>{{item.info}}</span>
-              <img alt="" :src="item.image"/>
+              <span>{{subitem.info}}</span>
+              <img alt="" :src="subitem.image"/>
             </a>
           </li>
         </div>
@@ -23,46 +23,9 @@
  export default {
    props: [
      'title',
-     'image'
-   ],
-   data() {
-     return {
-       items: [
-         {
-           info: '各式电脑',
-           image: require('./digitalProducts/1-1.jpg')
-         },
-         {
-           info: '外设装备',
-           image: require('./digitalProducts/1-2.jpg')
-         },
-         {
-           info: '平板电脑',
-           image: require('./digitalProducts/1-3.jpg')
-         },
-         {
-           info: '开学采购',
-           image: require('./digitalProducts/1-4.jpg')
-         },
-         {
-           info: '娱乐影音',
-           image: require('./digitalProducts/1-5.jpg')
-         },
-         {
-           info: '摄影摄像',
-           image: require('./digitalProducts/1-6.jpg')
-         },
-         {
-           info: '3C新品',
-           image: require('./digitalProducts/1-7.jpg')
-         },
-         {
-           info: '手机新品',
-           image: require('./digitalProducts/1-8.jpg')
-         }
-       ]
-     };
-   }
+     'image',
+     'subitems'
+   ]
  };
 </script>
 
@@ -71,7 +34,7 @@
 
  $fontSize: 14px;
  $height: 28px;
- $fontColor: #7e8c8d;
+ $fontColor: #333;
  $borderColor: #c2c2ba;
 
  .goodsList {
@@ -143,6 +106,7 @@
              position: absolute;
              left: 10%;
              top: 10%;
+             color: $fontColor;
            }
            img {
              position: absolute;

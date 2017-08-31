@@ -8,6 +8,7 @@
       v-bind:index="index"
       v-bind:key="item.id"
       v-bind:image="item.image"
+      v-bind:subitems="item.subitems"
     ></v-goodsList>
     <v-sidebar class="sidebar"></v-sidebar>
     <v-toTop class="to-top"></v-toTop>
@@ -32,42 +33,314 @@
          {
            id: 1,
            message: '电脑数码',
-           image: require('./components/goodsList/digitalProducts/1-9.jpg')
+           image: require('./components/goodsList/digitalProducts/1-9.jpg'),
+           subitems: [
+             {
+               info: '各式电脑',
+               image: require('./components/goodsList/digitalProducts/1-1.jpg')
+             },
+             {
+               info: '外设装备',
+               image: require('./components/goodsList/digitalProducts/1-2.jpg')
+             },
+             {
+               info: '平板电脑',
+               image: require('./components/goodsList/digitalProducts/1-3.jpg')
+             },
+             {
+               info: '开学采购',
+               image: require('./components/goodsList/digitalProducts/1-4.jpg')
+             },
+             {
+               info: '娱乐影音',
+               image: require('./components/goodsList/digitalProducts/1-5.jpg')
+             },
+             {
+               info: '摄影摄像',
+               image: require('./components/goodsList/digitalProducts/1-6.jpg')
+             },
+             {
+               info: '3C新品',
+               image: require('./components/goodsList/digitalProducts/1-7.jpg')
+             },
+             {
+               info: '手机新品',
+               image: require('./components/goodsList/digitalProducts/1-8.jpg')
+             }
+           ]
          },
          {
            id: 2,
            message: '吃货天堂',
-           image: require('./components/goodsList/digitalProducts/2-9.jpg')
+           image: require('./components/goodsList/digitalProducts/2-9.jpg'),
+           subitems: [
+             {
+               info: '零食坚果',
+               image: require('./components/goodsList/digitalProducts/2-1.jpg')
+             },
+             {
+               info: '麻辣锅巴',
+               image: require('./components/goodsList/digitalProducts/2-2.jpg')
+             },
+             {
+               info: '卤味鸡爪',
+               image: require('./components/goodsList/digitalProducts/2-3.jpg')
+             },
+             {
+               info: '点心面食',
+               image: require('./components/goodsList/digitalProducts/2-4.jpg')
+             },
+             {
+               info: '全麦麦饼',
+               image: require('./components/goodsList/digitalProducts/2-5.jpg')
+             },
+             {
+               info: '无穷鸡蛋',
+               image: require('./components/goodsList/digitalProducts/2-6.jpg')
+             },
+             {
+               info: '夏威夷果',
+               image: require('./components/goodsList/digitalProducts/2-7.jpg')
+             },
+             {
+               info: '薯愿薯片',
+               image: require('./components/goodsList/digitalProducts/2-8.jpg')
+             }
+           ]
          },
          {
            id: 3,
            message: '运动达人',
-           image: require('./components/goodsList/digitalProducts/3-9.jpg')
+           image: require('./components/goodsList/digitalProducts/3-9.jpg'),
+           subitems: [
+             {
+               info: '各式电脑',
+               image: require('./components/goodsList/digitalProducts/1-1.jpg')
+             },
+             {
+               info: '外设装备',
+               image: require('./components/goodsList/digitalProducts/1-2.jpg')
+             },
+             {
+               info: '平板电脑',
+               image: require('./components/goodsList/digitalProducts/1-3.jpg')
+             },
+             {
+               info: '开学采购',
+               image: require('./components/goodsList/digitalProducts/1-4.jpg')
+             },
+             {
+               info: '娱乐影音',
+               image: require('./components/goodsList/digitalProducts/1-5.jpg')
+             },
+             {
+               info: '摄影摄像',
+               image: require('./components/goodsList/digitalProducts/1-6.jpg')
+             },
+             {
+               info: '3C新品',
+               image: require('./components/goodsList/digitalProducts/1-7.jpg')
+             },
+             {
+               info: '手机新品',
+               image: require('./components/goodsList/digitalProducts/1-8.jpg')
+             }
+           ]
          },
          {
            id: 4,
            message: '家有宝宝',
-           image: require('./components/goodsList/digitalProducts/4-9.jpg')
+           image: require('./components/goodsList/digitalProducts/4-9.jpg'),
+           subitems: [
+             {
+               info: '各式电脑',
+               image: require('./components/goodsList/digitalProducts/1-1.jpg')
+             },
+             {
+               info: '外设装备',
+               image: require('./components/goodsList/digitalProducts/1-2.jpg')
+             },
+             {
+               info: '平板电脑',
+               image: require('./components/goodsList/digitalProducts/1-3.jpg')
+             },
+             {
+               info: '开学采购',
+               image: require('./components/goodsList/digitalProducts/1-4.jpg')
+             },
+             {
+               info: '娱乐影音',
+               image: require('./components/goodsList/digitalProducts/1-5.jpg')
+             },
+             {
+               info: '摄影摄像',
+               image: require('./components/goodsList/digitalProducts/1-6.jpg')
+             },
+             {
+               info: '3C新品',
+               image: require('./components/goodsList/digitalProducts/1-7.jpg')
+             },
+             {
+               info: '手机新品',
+               image: require('./components/goodsList/digitalProducts/1-8.jpg')
+             }
+           ]
          },
          {
            id: 5,
            message: '书虫天地',
-           image: require('./components/goodsList/digitalProducts/5-9.jpg')
+           image: require('./components/goodsList/digitalProducts/5-9.jpg'),
+           subitems: [
+             {
+               info: '各式电脑',
+               image: require('./components/goodsList/digitalProducts/1-1.jpg')
+             },
+             {
+               info: '外设装备',
+               image: require('./components/goodsList/digitalProducts/1-2.jpg')
+             },
+             {
+               info: '平板电脑',
+               image: require('./components/goodsList/digitalProducts/1-3.jpg')
+             },
+             {
+               info: '开学采购',
+               image: require('./components/goodsList/digitalProducts/1-4.jpg')
+             },
+             {
+               info: '娱乐影音',
+               image: require('./components/goodsList/digitalProducts/1-5.jpg')
+             },
+             {
+               info: '摄影摄像',
+               image: require('./components/goodsList/digitalProducts/1-6.jpg')
+             },
+             {
+               info: '3C新品',
+               image: require('./components/goodsList/digitalProducts/1-7.jpg')
+             },
+             {
+               info: '手机新品',
+               image: require('./components/goodsList/digitalProducts/1-8.jpg')
+             }
+           ]
          },
          {
            id: 6,
            message: '有车人士',
-           image: require('./components/goodsList/digitalProducts/6-9.jpg')
+           image: require('./components/goodsList/digitalProducts/6-9.jpg'),
+           subitems: [
+             {
+               info: '各式电脑',
+               image: require('./components/goodsList/digitalProducts/1-1.jpg')
+             },
+             {
+               info: '外设装备',
+               image: require('./components/goodsList/digitalProducts/1-2.jpg')
+             },
+             {
+               info: '平板电脑',
+               image: require('./components/goodsList/digitalProducts/1-3.jpg')
+             },
+             {
+               info: '开学采购',
+               image: require('./components/goodsList/digitalProducts/1-4.jpg')
+             },
+             {
+               info: '娱乐影音',
+               image: require('./components/goodsList/digitalProducts/1-5.jpg')
+             },
+             {
+               info: '摄影摄像',
+               image: require('./components/goodsList/digitalProducts/1-6.jpg')
+             },
+             {
+               info: '3C新品',
+               image: require('./components/goodsList/digitalProducts/1-7.jpg')
+             },
+             {
+               info: '手机新品',
+               image: require('./components/goodsList/digitalProducts/1-8.jpg')
+             }
+           ]
          },
          {
            id: 7,
            message: '生活旅行',
-           image: require('./components/goodsList/digitalProducts/7-9.jpg')
+           image: require('./components/goodsList/digitalProducts/7-9.jpg'),
+           subitems: [
+             {
+               info: '各式电脑',
+               image: require('./components/goodsList/digitalProducts/1-1.jpg')
+             },
+             {
+               info: '外设装备',
+               image: require('./components/goodsList/digitalProducts/1-2.jpg')
+             },
+             {
+               info: '平板电脑',
+               image: require('./components/goodsList/digitalProducts/1-3.jpg')
+             },
+             {
+               info: '开学采购',
+               image: require('./components/goodsList/digitalProducts/1-4.jpg')
+             },
+             {
+               info: '娱乐影音',
+               image: require('./components/goodsList/digitalProducts/1-5.jpg')
+             },
+             {
+               info: '摄影摄像',
+               image: require('./components/goodsList/digitalProducts/1-6.jpg')
+             },
+             {
+               info: '3C新品',
+               image: require('./components/goodsList/digitalProducts/1-7.jpg')
+             },
+             {
+               info: '手机新品',
+               image: require('./components/goodsList/digitalProducts/1-8.jpg')
+             }
+           ]
          },
          {
            id: 8,
            message: '其他百货',
-           image: require('./components/goodsList/digitalProducts/8-9.jpg')
+           image: require('./components/goodsList/digitalProducts/8-9.jpg'),
+           subitems: [
+             {
+               info: '各式电脑',
+               image: require('./components/goodsList/digitalProducts/1-1.jpg')
+             },
+             {
+               info: '外设装备',
+               image: require('./components/goodsList/digitalProducts/1-2.jpg')
+             },
+             {
+               info: '平板电脑',
+               image: require('./components/goodsList/digitalProducts/1-3.jpg')
+             },
+             {
+               info: '开学采购',
+               image: require('./components/goodsList/digitalProducts/1-4.jpg')
+             },
+             {
+               info: '娱乐影音',
+               image: require('./components/goodsList/digitalProducts/1-5.jpg')
+             },
+             {
+               info: '摄影摄像',
+               image: require('./components/goodsList/digitalProducts/1-6.jpg')
+             },
+             {
+               info: '3C新品',
+               image: require('./components/goodsList/digitalProducts/1-7.jpg')
+             },
+             {
+               info: '手机新品',
+               image: require('./components/goodsList/digitalProducts/1-8.jpg')
+             }
+           ]
          }
        ]
      };

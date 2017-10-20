@@ -128,7 +128,7 @@
    .login-btn {
      width: 80%;
      height: 40px;
-     margin-top: -50px;
+     margin-top: 10px;
      line-height: 40px;
      font-size: $fontSize;
      font-weight: bold;

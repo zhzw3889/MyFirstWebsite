@@ -12,7 +12,7 @@
     </p>
     <p class="copyright">
       <span class="copyright-item">Copyright©2004-2017</span>
-      <span class="copyright-item">快GO版权所有</span>
+      <span class="copyright-item"><a href="http://www.miitbeian.gov.cn/">苏ICP备17062048号</a></span>
       <span class="copyright-item">消费者维权热线：4006067733</span>
     </p>
     <p class="others">
@@ -44,6 +44,12 @@
      padding: 0 5px;
      color: #666;
      border-left: 1px solid #666;
+     a {
+       color: #666;
+       &:hover {
+         color: red;
+       }
+     }
      &:first-child {
        border: none;
      }

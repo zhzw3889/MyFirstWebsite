@@ -204,7 +204,7 @@
              color: $buttonColor;
            }
            i {
-             /* 控制居中 */
+             /* 垂直剧中方案 */
              line-height: 48px;
              font-size: 28px;
            }
